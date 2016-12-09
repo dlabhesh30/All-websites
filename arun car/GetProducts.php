@@ -1,8 +1,8 @@
 <?php 
   $server = "localhost";
-  $user = "arunkuma_user";
-  $pass = "arunkuma_user";
-  $db = "arunkuma_user";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
 
 
 $conn = new mysqli($server, $user, $pass, $db);
@@ -36,9 +36,9 @@ if ($result->num_rows > 0) {
               <h3 class="m_1">'.$row['Name'].'</h3>
               <p class="m_2">'.$row['Description'].'</p>
                  <div class="grid_img">
-               <div class="css3"><img src="'.$row['Image'].'" alt="" height="300"/></div>
+               <div class="css3"><img src="'.$row['Image'].'" alt="" height="250"/></div>
                     <div class="mask">
-                            <div class="info"><input type="submit" value="View"></div>
+                            <div class="info"><input type="submit" value="View" class="astext"></div>
                         </div>
                       </div>
                        <div class="price">$'.$row['Price'].'</div>

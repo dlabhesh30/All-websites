@@ -523,10 +523,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     			
                 <div class="social_single">	
 				   <ul>	
-					  <li class="fb"><a href="#"><span> </span></a></li>
-					  <li class="tw"><a href="#"><span> </span></a></li>
-					  <li class="g_plus"><a href="#"><span> </span></a></li>
-					  <li class="rss"><a href="#"><span> </span></a></li>		
+					  <li class="fb"><a class="twitter-share-button"
+						  href="https://twitter.com/intent/tweet"
+						  data-size="large">
+						Tweet</a>
+					  </li>
+					  <li class="tw"><div class="g-plusone" data-annotation="none"></div></li>
+					  <li class="g_plus"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share" data-url="http://myhelpinghandonline.com/272/single.php"></script></li>
+					  <li class="rss"><div class="fb-share-button" data-href="http://myhelpinghandonline.com/272/single.php" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Frobotsstore.co%2Fproduct2.php&amp;src=sdkpreparse">Share</a></div></li>		
 				   </ul>
 			    </div>
 			</div>
@@ -678,5 +683,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		</script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>

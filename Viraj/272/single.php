@@ -537,15 +537,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       </div>
       <div class="clear"></div>';
     
-     
+      
+			$ch = curl_init();
+
+
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getSlider.php");
+
+
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+			$contents = curl_exec ($ch);
+			print("$contents");
+			
+			
      ?>
-         <ul id="flexiselDemo3">
-      <li><img src="images/pic11.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic10.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic9.jpg" /><div class="grid-flex"><a href="#">Zumba</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic8.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic7.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-     </ul>
+         
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

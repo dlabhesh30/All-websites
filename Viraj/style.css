@@ -1,0 +1,130 @@
+.header {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #0FF;
+	background-color: #000;
+	height: auto;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	padding: 0px;
+	top:0px;
+	left:0px;
+	opacity:0.9;
+	
+}
+article section{
+	height: 550px;
+	padding-top: 70px;
+}
+article ul li {
+	list-style-type: none;
+	margin-top: 30px;
+}
+tr,td,th{
+	border:  1px solid #dddddd;
+}
+.footer {
+	background-color: #000;
+	height: 100px;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #0FF;
+	border-right-color: #0FF;
+	border-bottom-color: #0FF;
+	border-left-color: #0FF;
+	width: 100%;
+}
+.nav ul li,.nav ul li a {
+	text-align: center;
+	display: inline;
+	-webkit-transition: background-color 0.2s,color 1s ;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+}
+.nav {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	background-color: #333;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+}
+.nav ul {
+	text-align:center;
+	list-style-type: none;
+}
+body {
+	background-image: url(site_background.jpg);
+}
+
+.nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+article {
+	background-color: #63C;
+	height: auto;
+	padding: 50px;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	margin-top: 140px;
+	margin-right: 80px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	width: 90%;
+	
+}
+article img {
+	margin-left: 10px;
+}
+
+
+h1 {
+	padding: 10px;
+}
+
+.nav ul li:hover{
+	background-color: black;
+	color: cyan;
+	border-bottom:3px solid #0F0;
+	}
+.nav ul li a:hover{
+	
+	
+	background-color:black;
+	color:cyan;
+	}
+article h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+}
+
+article .sidebar {
+	color: #63C;
+	width: 30%;
+}
+
+.footer h4 {
+	color: #FFF;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+}
+
+section a{
+	color: black;
+}

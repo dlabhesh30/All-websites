@@ -74,7 +74,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="header-top">
 	 <div class="wrap"> 
 		<div class="logo">
-			<a href="index.html"><img src="images/logo1.jpg" alt=""/></a>
+			<a href="index.php"><img src="images/logo1.jpg" alt=""/></a>
 	    </div>
 	    <div class="cssmenu">
 		   <ul>

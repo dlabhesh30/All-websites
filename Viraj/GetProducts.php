@@ -36,7 +36,7 @@ if ($result->num_rows > 0) {
               <h3 class="m_1">'.$row['Name'].'</h3>
               <p class="m_2">'.$row['Description'].'</p>
                  <div class="grid_img">
-               <div class="css3"><img src="'.$row['Image'].'" alt="" height="300"/></div>
+               <div class="css3"><img src="'.$row['Image'].'" alt="" height="250"/></div>
                     <div class="mask">
                             <div class="info"><input type="submit" value="View" class="astext"></div>
                         </div>

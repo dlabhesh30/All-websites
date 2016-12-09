@@ -507,8 +507,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <h3 class="m_3">'.$Name.'</h3>
         
         <div class="price_single">
-                <span class="reducedfrom">'.$Price.'</span>
-                <span class="actual">$12.00</span><a href="#">click for offer</a>
+                <span class="reducedfrom"></span>
+                <span class="actual">$'.$Price.'</span>
               </div>
         
         <div class="btn_form">
@@ -523,7 +523,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           
                 <div class="social_single"> 
            <ul> 
-            <li class="fb"><div id="fb-root"></div>
+            <li class="fb"><div class="fb-share-button" data-href="http://myhelpinghandonline.com/272/single.php" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmyhelpinghandonline.com%2F272%2Fsingle.php&amp;src=sdkpreparse">Share</a></div>
             </li>
             <li class="tw"><a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
@@ -692,18 +692,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

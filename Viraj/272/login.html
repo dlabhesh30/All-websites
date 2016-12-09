@@ -128,21 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -197,21 +183,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -266,21 +238,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -335,21 +293,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -404,21 +348,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>

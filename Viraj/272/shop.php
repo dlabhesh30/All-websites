@@ -7,12 +7,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Shoppers stop</title>
+<title>Our Inventory</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery.easydropdown.js"></script>
 <script type="text/javascript">
         $(document).ready(function() {
             $(".dropdown img.flag").addClass("flagvisibility");
@@ -49,6 +51,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 <!-- end menu -->
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		<script type="text/javascript" id="sourcecode">
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+		</script>
 <!-- top scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -59,7 +68,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
 			});
 		});
-	</script>
+	</script>		
 </head>
 <body>
   <div class="header-top">
@@ -115,20 +124,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>>	
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -170,20 +172,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>>	
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -225,20 +220,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>>	
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -280,20 +268,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>>	
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -335,20 +316,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>>	
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -409,11 +383,170 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   </ul>
 		   <div class="clear"></div>
      	</div>
-       </div>
-       <div class="main">
-       	<div class="wrap">	      
-         <div class="content-bottom">
-             <?php 
+       </div>       
+       <div class="login">
+         <div class="wrap">
+     	    <div class="rsidebar span_1_of_left">
+				   <section  class="sky-form">
+                   	  <h4>Occasion</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Athletic (20)</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Athletic Shoes (48)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Casual (45)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Casual (45)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other (1)</label>
+						    </div>
+						 </div>
+                   	  <h4>Category</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Flats (70)</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Athletic Shoes (48)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Athletic Shoes (48)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Heels (38)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other (1)</label>
+						    </div>
+						</div>
+					 <h4>Styles</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Athletic (20)</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Ballerina (5)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Pumps (7)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>High Tops (2)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other (1)</label>
+						    </div>
+						</div>
+				</section>
+		        <section  class="sky-form">
+					<h4>Brand</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Adidas by Stella McCartney</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Asics</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Bloch</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Bloch Kids</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Capezio</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>Capezio Kids</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Nike</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Zumba</label>
+							</div>
+						</div>
+		       </section>
+		       <section  class="sky-form">
+					<h4>Heel Height</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Flat (20)</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Under 1in(5)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>1in - 1 3/4 in(5)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>2in - 2 3/4 in(3)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox" ><i></i>3in - 3 3/4 in(2)</label>
+							</div>
+						</div>
+		       </section>
+		       <section  class="sky-form">
+					<h4>Price</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>$50.00 and Under (30)</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$100.00 and Under (30)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$200.00 and Under (30)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$300.00 and Under (30)</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$400.00 and Under (30)</label>
+							</div>
+						</div>
+		       </section>
+		       <section  class="sky-form">
+					<h4>Colors</h4>
+						<div class="row row1 scroll-pane">
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Red</label>
+							</div>
+							<div class="col col-4">
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Green</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Black</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yellow</label>
+								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Orange</label>
+							</div>
+						</div>
+		       </section>
+		</div>
+		<div class="cont span_2_of_3">
+		  <div class="mens-toolbar">
+              <div class="sort">
+               	<div class="sort-by">
+		            <label>Sort By</label>
+		            <select>
+		                            <option value="">
+		                    Popularity               </option>
+		                            <option value="">
+		                    Price : High to Low               </option>
+		                            <option value="">
+		                    Price : Low to High               </option>
+		            </select>
+		            <a href=""><img src="images/arrow2.gif" alt="" class="v-middle"></a>
+               </div>
+    		</div>
+	          <div class="pager">   
+	           <div class="limiter visible-desktop">
+	            <label>Show</label>
+	            <select>
+	                            <option value="" selected="selected">
+	                    9                </option>
+	                            <option value="">
+	                    15                </option>
+	                            <option value="">
+	                    30                </option>
+	                        </select> per page        
+	             </div>
+	       		<ul class="dc_pagination dc_paginationA dc_paginationA06">
+				    <li><a href="#" class="previous">Pages</a></li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+			  	</ul>
+		   		<div class="clear"></div>
+	    	</div>
+     	    <div class="clear"></div>
+	       </div>
+	       <?php 
+			 $ch = curl_init();
+
+
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/GetProducts.php");
+
+
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+			$contents = curl_exec ($ch);
+			print("$contents");
+			
+			 $ch = curl_init();
+
+
+			curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/GetProducts.php");
+
+
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+			$contents = curl_exec ($ch);
+			print("$contents");
+			
 			 $ch = curl_init();
 
 
@@ -427,8 +560,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			print("$contents");
 			$conn->close();
 			?>
-			</div></div></div>
-             <div class="footer">
+			  </div>
+			  <div class="clear"></div>
+			</div>
+		   </div>
+
+  <div class="footer">
        	  <div class="footer-top">
        		<div class="wrap">
        			   <div class="col_1_of_footer-top span_1_of_footer-top">
@@ -481,12 +618,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   
        	 </div>
        	 
-       	 <style>
-       #hide{
-       	color: black;
-       }
-       </style>
-       	 <div class="copy" id="hide" style="#hide{color: black;}">
+       	
+       	 <div class="copy" id="hide">
        	   <div class="wrap">
        	   	  <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
        	   </div>

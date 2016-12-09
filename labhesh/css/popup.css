@@ -1,0 +1,20 @@
+			#popupBox{
+				top: 0; left: 0; position: fixed; width: 100%; height: 190%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}			
+			.popupBoxWrapper{
+				width: 550px; margin: 5px auto; text-align: left;
+			}
+			.popupBoxContent{
+				width:650px;
+				height:550px;
+
+				background-color: #FFF; padding: 0px;
+			}
+			#close{
+				text-align:right;
+				margin: 0 10px 0 0 ;
+			}
+			#frame{
+				width:641px;
+				height:540px;

@@ -1,0 +1,36 @@
+
+
+img {
+max-width:100%;
+}
+#gallery{
+list-style:none;
+}
+
+#gallery li{
+float:left;
+width:45%;
+margin:2.5%;
+color:red;
+text-align:center;
+text-size:1em;
+}
+
+.profile{
+max-width:150px;
+border-radius: 100%;
+}
+
+footer{
+text-align:center;
+font-size:0.75em;
+clear:both;
+}
+
+nav a.selected,nav a:hover {
+color: #324a5b;
+}
+
+#content {
+ 	text-align:center;
+}

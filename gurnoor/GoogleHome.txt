@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8"> </meta>
+<title>User List </title>
+<style>
+
+article {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    margin-left: 50px;
+    color : white;
+    font-size: 25px;
+
+}
+
+
+
+form {
+  margin-left : 50px;
+}
+
+section {
+position: fixed;
+  top: 50%;
+  left: 25%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+p {
+  font-style : "Verdana";
+  font-size : 25px;
+  color : yellow;
+}
+
+header {
+  text-align : center;
+  font-size: 30px;
+  color: white;
+}
+
+body {
+    margin : 0;
+    padding : 0;
+    font-size: 15px;
+    background: url("images/bg.jpg"); 
+    
+}
+
+h1 {
+    font-size : 50px;
+}
+
+
+nav {
+  text-align: center;
+  
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  display: block; 
+  padding: 10px 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size : 30px;
+}
+
+nav > ul > li > a {
+    display: bloack;
+    background-color : #202020;
+    line-height: 2em;
+    padding : 0.5em 0.5em;
+    text-decoration: none;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Arun Transport Services</h1>
+<!--<p>A responsive website tutorial</p> -->
+<nav>
+<ul>
+<li><a href = "index.html">Home</a></li>
+<li><a href = "about.html">About</a></li>
+<li><a href = "services.php">Services</a></li>
+<li><a href = "news.html">News</a></li>
+<li><a href = "contacts.php">Contact</a></li>
+<li><a href = "drivers.html">Drivers</a></li>
+<li><a href = "latest.php">Latest Cars </a></li>
+<li><a href = "visited.php">Most Visited </a></li></ul></nav></header>
+
+
+<article>
+<table border = '1' cellpadding = '3' cellspacing = '2' style = 'color:white'><p><tr><td>FName</td><td>LName</td><td>Email</td><td>Address</td><td>HomePhone</td><td>Cellphone</td></tr></p><tr><td>Arun</td><td>kumar</td><td>arunc4u91@gmail.com</td><td>33 south</td><td>4086697610</td><td>4086697610</td></tr><tr><td>ashok</td><td>kumar</td><td>ashokc4u91@gmail.com</td><td>101 sanfernando</td><td>4086697611</td><td>4086697611</td></tr><tr><td>M</td><td>K</td><td>mk@gmail.com</td><td>56 san fernando</td><td>1111111111</td><td>1111111111</td></tr><tr><td>Raj</td><td>Kumar</td><td>raj@gmail.com</td><td>44 jump street</td><td>4123455555</td><td>4123455555</td></tr><tr><td>Jeyanth</td><td>Ravikumar</td><td>jeyanth@gmail.com</td><td>33 south</td><td>4086697613</td><td>4086697613</td></tr><tr><td>Sai</td><td>Krishnan</td><td>sai@gmail.com</td><td>101 san fernando</td><td>4086697614</td><td>4086697614</td></tr><tr><td>Aishwarya</td><td>Rajan</td><td>aishwarya@gmail.com</td><td>32 south</td><td>4086697640</td><td>4086697640</td></tr><tr><td>Siva</td><td>Raman</td><td>siva@gmail.com</td><td>34 south</td><td>4086697650</td><td>4086697650</td></tr><tr><td>Nirmal</td><td>kumar</td><td>nirmal@gmail.com</td><td>45 south</td><td>4086697660</td><td>4086697660</td></tr><tr><td>Vishal</td><td>kumar</td><td>vishal@gmail.com</td><td>kolonade</td><td>4086697670</td><td>4086697670</td></tr><tr><td>Kritin</td><td>kumar</td><td>kritin@gmail.com</td><td>23 East Salvador</td><td>4086697680</td><td>4086697680</td></tr><tr><td>vidya</td><td>Venkatesan</td><td>vidya@yahoo.com</td><td>104 descanso drive</td><td>4086697750</td><td>4086697750</td></tr><tr><td>priya</td><td>kumar</td><td>priya@rediffmail.com</td><td>54 East Salvador</td><td>4086698650</td><td>4086698650</td></tr><tr><td>saravanan</td><td>kumar</td><td>saravanan@yahoo.com</td><td>101 san fernando</td><td>4086697950</td><td>4086697950</td></tr><tr><td>praveen</td><td>k</td><td>praveen@gmail.com</td><td>56 Descanso Drive</td><td>4086698650</td><td>4086698650</td></tr><tr><td>kumaran</td><td>P</td><td>kumaran@gmail.com</td><td>101 Descanso Drive</td><td>4086690650</td><td>4086690650</td></tr><tr><td>P</td><td>K</td><td>mk@gmail.com</td><td>56 san fernando</td><td>1111111112</td><td>1111111112</td></tr><tr><td>raj</td><td>mithun</td><td>rajmithun@gmail.com</td><td>56 san fernando</td><td>1111111145</td><td>1111111145</td></tr><tr><td>Ganapathy</td><td>Ram</td><td>ram@gmail.com</td><td>101 san fernando</td><td>1111111150</td><td>1111111150</td></tr><tr><td>Avinash</td><td>Kumar</td><td>avinash@gmail.com</td><td>20 Descanso Drive</td><td>1111111160</td><td>1111111160</td></tr><tr><td>Gurnoor</td><td>Singh</td><td>gurnoor@gmail.com</td><td>20 Descanso Drive</td><td>1111111169</td><td>1111111169</td></tr><tr><td>Srinath</td><td>Venkataramanan</td><td>srinathv2705@gmail.c</td><td>101 E San Fernando Street</td><td>1</td><td>16692659568</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td>0</td><td>0</td></tr></table>
+
+</article>
+
+<!--  picture 
+<section>
+  <svg width="300px" height="200px">
+
+  <img src= "california.jpg" alt = "California" style = "width:304px;height:228px;">
+
+  </svg>
+
+  <footer> </footer>
+  
+</section>
+-->
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+Sitemap: http://gurnoors.com/sitemap.xml
+
+User-agent: *
+Disallow: /users_secured.html
+

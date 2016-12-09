@@ -1,0 +1,10 @@
+[05-Nov-2016 19:14:59 America/Denver] PHP Warning:  include(../../utils.php): failed to open stream: No such file or directory in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 6
+[05-Nov-2016 19:14:59 America/Denver] PHP Warning:  include(): Failed opening '../../utils.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 6
+[05-Nov-2016 19:14:59 America/Denver] PHP Fatal error:  Call to undefined function addVisited() in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 8
+[05-Nov-2016 19:19:26 America/Denver] PHP Warning:  include(../../utils.php): failed to open stream: No such file or directory in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 6
+[05-Nov-2016 19:19:26 America/Denver] PHP Warning:  include(): Failed opening '../../utils.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 6
+[05-Nov-2016 19:19:26 America/Denver] PHP Fatal error:  Call to undefined function addVisited() in /home3/gurnoors/public_html/startbootstrap-creative-gh-pages/index.php on line 8
+[03-Dec-2016 13:18:32 America/Denver] PHP Notice:  Undefined index: history in /home3/gurnoors/public_html/utils.php on line 14
+[03-Dec-2016 13:18:32 America/Denver] PHP Warning:  array_key_exists() expects parameter 2 to be array, boolean given in /home3/gurnoors/public_html/utils.php on line 16
+[03-Dec-2016 13:18:32 America/Denver] PHP Notice:  Undefined index: fav in /home3/gurnoors/public_html/utils.php on line 32
+[03-Dec-2016 13:18:32 America/Denver] PHP Warning:  array_key_exists() expects parameter 2 to be array, boolean given in /home3/gurnoors/public_html/utils.php on line 33

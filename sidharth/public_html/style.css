@@ -1,0 +1,40 @@
+body{font-family: 'Roboto', sans-serif;}
+.no-margin{
+	margin:0px;
+}
+.no-padding{
+	padding:0px;
+}
+
+.site-footer
+{
+	background-color:#000;
+	color:#fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.solid {border-style: solid;}
+
+.row {
+    margin-right: -15px;
+    margin-top: 80px;
+    margin-left: -15px;
+}
+p{line-height:25px;font-size:13px;}
+h1{font-size:25px;padding-bottom:9px;}
+.pad50{padding-top:50px;padding-bottom:90px;}
+.top-cover{background:url(img/robot.jpg);height:100vh;background-size:cover;background-attachment:fixed;}
+.top-cover h2{margin-top:40vh;color:#fff;text-shadow:1px 1px 2px #666;font-size:25px;margin-bottom:20px;}
+.jumbotron{border-radius:0;}
+.nav-tabs{border:none;}
+.nav-tabs>li>a:hover{background:#000;border:none;}
+.nav-tabs>li>a{transition:all ease 0.4s;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{background:#000;border-radius:0;
+color:#fff;}
+.navbar-nav>li>a{color:#fff;}
+.navbar-nav>li>a:hover{color:#000;}

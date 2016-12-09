@@ -1,0 +1,63 @@
+.storefront-single-product-pagination a {
+  display: block;
+  width: 48%; }
+  .storefront-single-product-pagination a[rel="prev"] {
+    float: left; }
+  .storefront-single-product-pagination a[rel="next"] {
+    float: right; }
+
+@media screen and (min-width: 768px) {
+  .storefront-single-product-pagination {
+    z-index: 999999; }
+    .storefront-single-product-pagination h2 {
+      clip: rect(1px 1px 1px 1px);
+      /* IE6, IE7 */
+      clip: rect(1px, 1px, 1px, 1px);
+      position: absolute !important; }
+    .storefront-single-product-pagination a {
+      display: block;
+      width: 17.942em;
+      position: fixed;
+      float: none;
+      background-color: #FCFCFC;
+      padding: 1em;
+      top: 45%;
+      z-index: 999999; }
+      .storefront-single-product-pagination a img {
+        width: 4.236em;
+        opacity: 0.5;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+      .storefront-single-product-pagination a:hover img {
+        opacity: 1; }
+      .storefront-single-product-pagination a .title {
+        width: 10.5em; }
+      .storefront-single-product-pagination a[rel="prev"] {
+        left: -11.706em;
+        border-left: 0;
+        -webkit-transition: left 0.5s ease;
+        -moz-transition: left 0.5s ease;
+        transition: left 0.5s ease; }
+        .storefront-single-product-pagination a[rel="prev"] img {
+          float: right;
+          margin-left: 1em; }
+        .storefront-single-product-pagination a[rel="prev"]:hover {
+          left: 0; }
+        .storefront-single-product-pagination a[rel="prev"] .title {
+          float: left;
+          display: block; }
+      .storefront-single-product-pagination a[rel="next"] {
+        right: -11.706em;
+        border-right: 0;
+        -webkit-transition: right 0.5s ease;
+        -moz-transition: right 0.5s ease;
+        transition: right 0.5s ease; }
+        .storefront-single-product-pagination a[rel="next"] img {
+          float: left;
+          margin-right: 1em; }
+        .storefront-single-product-pagination a[rel="next"]:hover {
+          right: 0; }
+        .storefront-single-product-pagination a[rel="next"] .title {
+          float: right;
+          display: block; } }

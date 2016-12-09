@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<title>User Sign-Up</title>
+	</head>
+
+<body>
+<script>
+  // This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    // The response object is returned with a status field that lets the
+    // app know the current login status of the person.
+    // Full docs on the response object can be found in the documentation
+    // for FB.getLoginStatus().
+    if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      testAPI();
+    } else if (response.status === 'not_authorized') {
+      // The person is logged into Facebook, but not your app.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      // The person is not logged into Facebook, so we're not sure if
+      // they are logged into this app or not.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+
+  // This function is called when someone finishes with the Login
+  // Button.  See the onlogin handler attached to it in the sample
+  // code below.
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '578122012396261',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+
+  // Now that we've initialized the JavaScript SDK, we call 
+  // FB.getLoginStatus().  This function gets the state of the
+  // person visiting this page and can return one of three states to
+  // the callback you provide.  They can be:
+  //
+  // 1. Logged into your app ('connected')
+  // 2. Logged into Facebook, but not your app ('not_authorized')
+  // 3. Not logged into Facebook and can't tell if they are logged into
+  //    your app or not.
+  //
+  // These three cases are handled in the callback function.
+
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  // Here we run a very simple test of the Graph API after login is
+  // successful.  See statusChangeCallback() for when this call is made.
+  
+   function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+
+
+</script>
+
+<div class="container-fluid">
+		<div class="text-center">
+
+			<nav class="navbar-default navbar-static top" margin-top="30px" role="navigation">
+			<div class="container-fluid ">  
+				<a class="navbar-brand " href="index.html">RobotsStore</a>
+					<div class="collapse navbar-collapse navbar-right">  
+						<ul class="nav navbar-nav nav-tabs">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contactus.php">Contact Us</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="users.html">Users</a></li>
+							
+						</ul>
+	
+	
+					</div>
+			</div>
+			</nav>
+</div>
+<div class="container">
+
+
+
+<form action="signup.php" method="post">
+<br/>
+
+<table border="0" align="center">
+	<tr><th colspan="4" align="center">Please Enter Details:</th></tr>
+	<tr>
+		<td colspan="2">First Name:</td>
+		<td solspan="2"><input type="text" name="firstname"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Last Name:</td>
+		<td solspan="2"><input type="text" name="lastname"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Email:</td>
+		<td solspan="2"><input type="text" name="email"></td>
+	</tr>
+	<tr>
+		<td colspan="2">House Address:</td>
+		<td solspan="2"><input type="text" name="address"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Landline Number:</td>
+		<td solspan="2"><input type="text" name="landline"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Mobile Number:</td>
+		<td solspan="2"><input type="text" name="mobile"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Gender:</td>
+		<td colspan="2">
+			<input type="radio" name="gender" value="Male">Male
+  			<input type="radio" name="gender" value="Female">Female
+  		</td>
+	</tr>
+	<tr align="center">
+		<td><input type="Reset" name="enter" value="Reset"></td>
+	
+		<td><input type="submit" name="NewUser" value="Sign-Up"></td>
+                <td>
+                     <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
+
+
+                </td>
+
+	</tr>
+</table>
+</font>
+
+
+
+
+
+</div>
+
+<<footer class="site-footer">
+	<div class="container">
+	<div class="collapse navbar-collapse navbar-center">  
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contactus.php">Contact Us</a></li>
+			<li><a href="recentlyviewed.php">Recently Viewed Products</a></li>
+			<li><a href="mostviewed.php">Most Viewed Products</a></li>
+		</ul>
+	</div>
+	</div>
+
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+<head width=100%>
+	<title>Search</title>
+
+	<table bgcolor="###DA9259" width=100% height="100">
+		<tr>
+			<th><font color = "#0F6D97" size=10>RobotsStore</font></th>
+			<th><a href="index.html"><font color = "#0F6D97">Home</font></a></th>
+			<th><a href="Products.html"><font color = "#0F6D97">Products</a></th>
+			<th><a href="News.html"><font color = "#0F6D97">News</font></a></th>
+			<th><a href="  About.html"><font color = "#0F6D97">About</font></a></th>
+			<th><a href="ContactUs.php"><font color = "#0F6D97">Contact Us</font></a></th>
+			<th><a href="login.html"><font color = "#0F6D97">Login</font></a></th>
+			<th><a href="users.html"><font color = "#0F6D97">Users</font></a></th>
+
+		</tr>
+	</table>
+</head>
+<body bgcolor="#000000">
+	<img src=1.jpg width="200" height="100">	<img src=2.jpg width="200" height="100">	<img src=3.jpg width="200" height="100">	<img src=4.jpg width="200" height="100"> <img src=5.jpg width="200" height="100">	<img src=6.jpg width="226" height="100">
+
+<p align="center"><font color = "white">Welcome to the Users Search Section! </font>
+<br><br>
+<font color = "white">You can search users with different search criteria, but with only one search clause at a time.</font>
+<br>
+<font color = "white">Choose your parameter criteria, enter its value and hit corresponsing search button.
+<br>
+<font color = "white">Search is case-sensitive. Make sure to enter exact value to be searched.
+</font>
+</p>
+<form method="post" action="searching.php">
+	<table  bgcolor="###DA9259"align="center" width=30%>
+		<tr>
+			<td><font color = "#000000"><b>Select a search criteria</b></font></td>
+			<td>
+				<select name="field">
+					  <option value="firstname">First Name</option>
+					  <option value="lastname">Last Name</option>
+					  <option value="email">Email</option>
+					  <option value="address">Home Address</option>
+					  <option value="landline">Landline Number</option>
+					  <option value="mobile">Mobile Number</option>
+				</select>
+			</td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><font color = "#000000"><b>Enter search value</b></font></td>
+			<td><input type="text" name="nameinput"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="name" value="Search"></td>
+		</tr>
+	</table>
+</body>
+</html>

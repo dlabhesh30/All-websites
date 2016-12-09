@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<title>Search</title>
+	</head>
+
+<body>
+
+
+<div class="container-fluid text-center">
+		<div class="text-center">
+
+			<nav class="navbar-default navbar-static top" margin-top="30px" role="navigation">
+			<div class="container-fluid ">  
+				<a class="navbar-brand " href="index.html">RobotsStore</a>
+					<div class="collapse navbar-collapse navbar-right">  
+						<ul class="nav navbar-nav nav-tabs">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="products.html">Products</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contactus.php">Contact Us</a></li>
+							<li><a href="login.html">Login</a></li>
+							<li><a href="users.html">Users</a></li>
+							
+						</ul>
+					</div>
+			</div>
+			</nav>
+		</div>
+</div>
+
+<div class="container">
+	
+<p align="center">Welcome to the Users Search Section!
+<br><br>
+You can search users with different search criteria, but with only one search clause at a time.
+<br>
+Choose your parameter criteria, enter its value and hit corresponsing search button.
+<br>
+Search is case-sensitive. Make sure to enter exact value to be searched.
+</p>
+<form method="post" action="searching.php">
+	<table  bgcolor="###DA9259"align="center" width=30%>
+		<tr>
+			<td><font color = "#000000"><b>Select a search criteria</b></font></td>
+			<td>
+				<select name="field">
+					  <option value="firstname">First Name</option>
+					  <option value="lastname">Last Name</option>
+					  <option value="email">Email</option>
+					  <option value="address">Home Address</option>
+					  <option value="landline">Landline Number</option>
+					  <option value="mobile">Mobile Number</option>
+				</select>
+			</td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td><font color = "#000000"><b>Enter search value</b></font></td>
+			<td><input type="text" name="nameinput"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="name" value="Search"></td>
+		</tr>
+	</table>
+</form>
+
+
+</div>
+
+
+<footer class="site-footer">
+	<div class="container">
+	<div class="collapse navbar-collapse navbar-center">  
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contactus.php">Contact Us</a></li>
+			<li><a href="recentlyviewed.php">Recently Viewed Products</a></li>
+			<li><a href="mostviewed.php">Most Viewed Products</a></li>
+		</ul>
+	</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

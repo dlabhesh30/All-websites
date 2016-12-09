@@ -115,13 +115,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -163,13 +170,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -211,13 +225,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -259,13 +280,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -307,13 +335,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>

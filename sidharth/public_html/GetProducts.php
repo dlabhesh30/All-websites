@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
                  <div class="grid_img">
                <div class="css3"><img src="'.$row['Image'].'" alt="" height="300"/></div>
                     <div class="mask">
-                            <div class="info"><input type="submit" value="View"></div>
+                            <div class="info"><input type="submit" value="View" class="astext"></div>
                         </div>
                       </div>
                        <div class="price">$'.$row['Price'].'</div>

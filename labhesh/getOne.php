@@ -16,11 +16,10 @@ $sql = "SELECT * FROM Products";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 
-   while($row = $result->fetch_assoc()) {
-    print('<div class="box1">');
-    $boolean=true;
-    for ($i=0; $i <3 && $boolean; $i++) { 
-      # code...
+   $row = $result->fetch_assoc();
+    
+    
+    
       print('<div class="col_1_of_3 span_1_of_3"><form action="single.php" method="post">
   <input type="hidden" name="SNo" value="'.$row["SNo"].'" />
   <input type="hidden" name="Name" value="'.$row["Name"].'" />
@@ -73,23 +72,15 @@ if ($result->num_rows > 0) {
                 <div class="clear"></div>
             </div>
             ');
-      if($i!=2 && $row = $result->fetch_assoc()){
-        
-      }else{
-        $boolean=false;
-      }
       
-    }
-    print('<div class="clear"></div>
-            </div>');
-        
-    }
-    print('<div class="clear"></div>
-            </div>');
+      
+    
+    
     
 }
 
 
 $conn->close();
 ?>
+
 

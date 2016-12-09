@@ -547,8 +547,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               </div>
         
         <div class="btn_form">
-           <form>
-           <input type="submit" value="buy now" title="">
+           <form action="addtocart.php" method="post">
+           <input type="hidden" name="SNo" value="'.$row["SNo"].'" />
+  <input type="hidden" name="Name" value="'.$row["Name"].'" />
+  <input type="hidden" name="Description" value="'.$row["Description"].'" />
+  <input type="hidden" name="Price" value="'.$row["Price"].'" />
+  <input type="hidden" name="Quantity" value="'.$row["Quantity"].'" />
+  <input type="hidden" name="Rating" value="'.$row["Rating"].'" />
+  <input type="hidden" name="Image" value="'.$row["Image"].'" />
+           <input type="submit" value="Add Cart" title="">
           </form>
         </div>
         <ul class="add-to-links">

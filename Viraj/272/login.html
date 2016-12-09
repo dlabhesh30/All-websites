@@ -390,22 +390,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  <div class="login-title">
 	           		<h4 class="title">Registered Customers</h4>
 					 <div class="comments-area">
-						<form>
+						<form method="post" action="login/password.php" > 
 							<p>
-								<label>Name</label>
+								<label>Userame</label>
 								<span>*</span>
-								<input type="text" value="">
+								<input type="text" value="" name="uname" placeholder="Userame" required>
 							</p>
 							<p>
 								<label>Password</label>
 								<span>*</span>
-								<input type="password" value="">
+								<input type="password" value="" name="password" placeholder="Password" required>
 							</p>
 							 <p id="login-form-remember">
 								<label><a href="#">Forget Your Password ? </a></label>
 							 </p>
 							 <p>
-								<input type="submit" value="Login">
+								<input type="submit" name="signin" value="Login">
 							</p>
 						</form>
 					</div>

@@ -92,7 +92,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    	<div class="wrap">
    		<!-- start header menu -->
 		<ul class="megamenu skyblue">
-		    <li><a class="color1" href="index.html">Home</a></li>
+		    <li><a class="color1" href="index.php">Home</a></li>
 			<li class="grid"><a class="color2" href="#">Labhesh's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>

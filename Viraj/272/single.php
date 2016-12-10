@@ -602,7 +602,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                  $some=$Image;
                   $pattern="/.+(com)/";
                   if (preg_match_all($pattern, $some, $matches_out)) {
-                  print_r($matches_out[0]);
+                  
                       
                   
                 curl_setopt($ch, CURLOPT_URL, "$matches_out[0]/getList.php");
@@ -616,7 +616,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       }
               ?>  
          
->>>>>>> 94a228b92d4f925857f017d8227fe4c4f0fdf906
+
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

@@ -65,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="header-top">
 	 <div class="wrap"> 
 		<div class="logo">
-			<a href="index.php"><img src="images/logo1.jpg" alt=""/></a>
+			<a href="index.html"><img src="images/logo1.jpg" alt=""/></a>
 	    </div>
 	    <div class="cssmenu">
 		   <ul>
@@ -115,20 +115,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -170,20 +163,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -225,20 +211,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -280,20 +259,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -335,20 +307,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+								<ul>
+									<li><a href="shop.html">men</a></li>
+									<li><a href="shop.html">women</a></li>
+									<li><a href="shop.html">accessories</a></li>
+									<li><a href="shop.html">kids</a></li>
+									<li><a href="shop.html">brands</a></li>
+								</ul>	
 							</div>							
 						</div>
 						<div class="col1"></div>
@@ -413,15 +378,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
        <div class="register_account">
           	<div class="wrap">
     	      <h4 class="title">Create an Account</h4>
-    		   <form>
+    		   <form method="POST" action="login/password.php">
     			 <div class="col_1_of_2 span_1_of_2">
-		   			 <div><input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"></div>
-		    			<div><input type="text" value="Company Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Company Name';}"></div>
-		    			<div><input type="text" value="E-Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail';}"></div>
-		    			<div><input type="text" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}"></div>
+		   			 <div><input type="text" name = "name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"></div>
+		    			<div><input type="text" name="company" value="Company Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Company Name';}"></div>
+		    			<div><input type="text" name="email" value="E-Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-Mail';}"></div>
+		    			<div><input type="text" name="password" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}"></div>
 		    	 </div>
 		    	  <div class="col_1_of_2 span_1_of_2">	
-		    		<div><input type="text" value="Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Address';}"></div>
+		    		<div><input type="text" name="address" value="Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Address';}"></div>
 		    		<div><select id="country" name="country" onchange="change_country(this.value)" class="frm-field required">
 		            <option value="null">Select a Country</option>         
 		            <option value="AX">Åland Islands</option>
@@ -619,11 +584,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		            <option value="SA">Saudi Arabia</option>
 		            <option value="SN">Senegal</option>
 		         </select></div>		        
-		          <div><input type="text" value="City" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City';}"></div>
-		             <input type="text" value="" class="code"> - <input type="text" value="" class="number">
+		          <div><input type="text" name="city" value="City" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City';}"></div>
+		             <input type="text" value="" name="code" class="code"> - <input type="text" name="number" value="" class="number">
 		          	 <p class="code">Country Code + Phone Number</p>
 		          </div>
-		         <button class="grey">Submit</button>
+		         <button type="submit" name="Submit" class="grey">Submit</button>
 		         <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp; Conditions</a>.</p>
 		         <div class="clear"></div>
 		    </form>

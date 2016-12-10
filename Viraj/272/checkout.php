@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Gurnoor's Magical world</title>
+<title>Checkout</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -409,25 +409,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <div class="clear"></div>
      	</div>
        </div>
-       <div class="main">
-       	<div class="wrap">	      
-         <div class="content-bottom">
-             <?php 
-			 $ch = curl_init();
-
-
-			curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/GetProducts.php");
-
-
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-			$contents = curl_exec ($ch);
-			print("$contents");
-			$conn->close();
-			?>
-			</div></div></div>
-             <div class="footer">
+       <div class="login">
+         <div class="wrap">
+    	     <h4 class="title">Shopping cart is empty</h4>
+    	     <p class="cart">You have no items in your shopping cart.<br>Click<a href="index.php"> here</a> to continue shopping</p>
+    	   </div>
+		</div>
+      <div class="footer">
        	  <div class="footer-top">
        		<div class="wrap">
        			   <div class="col_1_of_footer-top span_1_of_footer-top">
@@ -454,7 +442,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like and share us</p>
 					</div>
 					<div class="cont span_2_of_c1">
-					   <div class="social">	
+			  <div class="social">	
 					     <ul>	
 						  <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
 						 </li>

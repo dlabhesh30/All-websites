@@ -95,7 +95,7 @@
             <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 \">
                  <h1>Login Successful !! Welcome, $uname :)</h1></br>
                  <hr>
-                 <p><strong><a href=\"index.html\"> Go to Home<strong></a></p>
+                 <p><strong><a href=\"index.php\"> Go to Home<strong></a></p>
             </div></div></div><hr>");
       }
   }

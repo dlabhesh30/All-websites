@@ -83,7 +83,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    	<div class="wrap">
    		<!-- start header menu -->
 		<ul class="megamenu skyblue">
-		    <li><a class="color1" href="index.html">Home</a></li>
+		    <li><a class="color1" href="index.php">Home</a></li>
 			<li class="grid"><a class="color2" href="#">Labhesh's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>
@@ -455,62 +455,92 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like and share us</p>
 					</div>
 					<div class="cont span_2_of_c1">
-					  <div class="social">	
-					     <ul>	
-						  <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
-						 </ul>
-			   		   </div>
-					   <div class="social">	
-						   <ul>	
-							  <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
-						  </ul>
-			     		</div>
-						 <div class="social">	
-						   <ul>	
-							  <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
-						   </ul>
-			    		 </div>
-						 <div class="social">	
-						   <ul>	
-							  <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
-						  </ul>
-			     		</div>
-						<div class="clear"> </div>
-					  </div>
-					  <div class="clear"></div>			
-				   
-       	 </div>
-       	 
-       	 <style>
-       #hide{
-       	color: black;
-       }
-       </style>
-       	 <div class="copy" id="hide" style="#hide{color: black;}">
-       	   <div class="wrap">
-       	   	  <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
-       	   </div>
-       	 </div>
+					  <div class="social">  
+               <ul> 
+              <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
+             </ul>
+               </div>
+             <div class="social"> 
+               <ul> 
+                <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+              </ul>
+              </div>
+             <div class="social"> 
+               <ul> 
+                <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+               </ul>
+               </div>
+             <div class="social"> 
+               <ul> 
+                <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+              </ul>
+              </div>
+            <div class="clear"> </div>
+            </div>
+            <div class="clear"></div>     
+           
+         </div>
+         
+        
+         <div class="copy" id="hide">
+           <div class="wrap">
+              <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
+           </div>
+         </div>
        </div>
 
        <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
+      $(document).ready(function() {
+      
+        var defaults = {
+            containerID: 'toTop', // fading element id
+          containerHoverID: 'toTopHover', // fading element hover id
+          scrollSpeed: 1200,
+          easingType: 'linear' 
+        };
+        
+        
+        $().UItoTop({ easingType: 'easeOutQuart' });
+        
+      });
+    </script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
-        <!--Start of Tawk.to Script-->
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -523,5 +553,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 <?php
   extract($_POST);
   //check if username and password is left blank 
@@ -7,9 +9,9 @@
   }  
   //check if sign up is occuring
 
-
+echo 'hi';
   if(isset($Submit)){
-
+echo 'hi2';
     if(!$name || !$company || !$email || !$password || !$address || !$country || !$city || !$code || !$number){
       echo '<p align="center">';
       echo "You have not filled all the details.<br>Please fill all the fields.</p>";
@@ -21,6 +23,7 @@
       $user='sidharth11';
       $pass = 'sidharth11';
       $db='RobotsStore';
+      echo 'all good';
       $con = mysqli_connect($host,$user,$pass,$db);
       if(!$con){
         echo '<p align="center">Connection to the database could not be made.<br>Please try after some time.</p>';
@@ -31,8 +34,8 @@
         $query = mysqli_query($con, $sql);
 
         if($query){
-            header('Location: http://www.robotsstore.co/272/272/');
-            echo '<p align="center">You have signed up successfully. Welcome2.<br>Welcome to RobotsStore.</p>';
+
+          echo '<p align="center">You have signed up successfully.<br>Welcome to RobotsStore.</p>';
         }
         else{
           echo '<p align="center">There was an error while executing your query.<br>Please try after some time.</p>'; 
@@ -40,6 +43,35 @@
       }  
     }
   }
+  elseif(isset($login)){
+    echo 'inside login';
+
+    $host = 'robotsstore.co';
+      $user='sidharth11';
+      $pass = 'sidharth11';
+      $db='RobotsStore';
+      echo 'all good';
+      $con = mysqli_connect($host,$user,$pass,$db);
+      if(!$con){
+        echo '<p align="center">Connection to the database could not be made.<br>Please try after some time.</p>';
+      }
+      else{
+        $em=$_POST[email];
+        $sql = "SELECT `password` FROM `marketusers` WHERE 'email'='".$em."'";
+
+        $query = mysqli_query($con, $sql);
+
+        if($query){
+
+          echo '<p align="center">You have signed up successfully.<br>Welcome to RobotsStore.</p>';
+        }
+        else{
+          echo '<p align="center">There was an error while executing your query.<br>Please try after some time.</p>'; 
+        }
+      }  
+    
+  }
+  
 ?>
 
 <!--Start of Tawk.to Script-->

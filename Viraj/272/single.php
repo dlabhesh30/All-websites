@@ -548,13 +548,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         
         <div class="btn_form">
            <form action="addtocart.php" method="post">
-           <input type="hidden" name="SNo" value="'.$row["SNo"].'" />
-  <input type="hidden" name="Name" value="'.$row["Name"].'" />
-  <input type="hidden" name="Description" value="'.$row["Description"].'" />
-  <input type="hidden" name="Price" value="'.$row["Price"].'" />
-  <input type="hidden" name="Quantity" value="'.$row["Quantity"].'" />
-  <input type="hidden" name="Rating" value="'.$row["Rating"].'" />
-  <input type="hidden" name="Image" value="'.$row["Image"].'" />
+           
+  <input type="hidden" name="Name" value="'.$Name.'" />
+  <input type="hidden" name="Description" value="'.$Description.'" />
+  <input type="hidden" name="Price" value="'.$Price.'" />
+  <input type="hidden" name="Username" value="'.$Username.'" />
+  <input type="hidden" name="Image" value="'.$Image.'" />
            <input type="submit" value="Add Cart" title="">
           </form>
         </div>
@@ -581,13 +580,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
-         <ul id="flexiselDemo3">
-      <li><img src="images/pic11.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic10.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic9.jpg" /><div class="grid-flex"><a href="#">Zumba</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic8.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic7.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-     </ul>
+         <?php 
+       $ch = curl_init();
+
+
+      curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getSlider.php");
+
+
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+      $contents = curl_exec ($ch);
+      print("$contents");
+      
+      ?>
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

@@ -3,9 +3,9 @@
 <?php 
   $username = "arun";
   $server = "localhost";
-  $user = "arunkuma_user";
-  $pass = "arunkuma_user";
-  $db = "arunkuma_user";
+  $user = "dlabhesh30";
+  $pass = "nyc1788";
+  $db = "labhesh_db";
   $conn = new mysqli($server, $user, $pass, $db);
   
   

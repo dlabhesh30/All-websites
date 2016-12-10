@@ -581,13 +581,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
-         <ul id="flexiselDemo3">
-      <li><img src="images/pic11.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic10.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic9.jpg" /><div class="grid-flex"><a href="#">Zumba</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic8.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic7.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-     </ul>
+     <?php 
+                 $ch = curl_init();
+
+                 $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                  print_r($matches_out[0]);
+                      
+                  
+                curl_setopt($ch, CURLOPT_URL, "$matches_out[0]/getList.php");
+
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+      }
+              ?>  
+         
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

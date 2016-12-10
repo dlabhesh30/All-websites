@@ -70,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    <div class="cssmenu">
 		   <ul>
 			 <li class="active"><a href="register.html">Sign up</a></li> 
-			 
+			 <li><a href="shop.html">Inventory</a></li> 
 			 <li><a href="login.html">My Account</a></li> 
 			 <li><a href="checkout.html">CheckOut</a></li> 
 		   </ul>
@@ -83,10 +83,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    	<div class="wrap">
    		<!-- start header menu -->
 		<ul class="megamenu skyblue">
-
-		    <li><a class="color1" href="index.php">Home</a></li>
-			<li class="grid"><a class="color2" href="labheshproducts.php">Guitars</a>
-
+		    <li><a class="color1" href="index.html">Home</a></li>
+			<li class="grid"><a class="color2" href="#">Labhesh's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>
 					<div class="row">
@@ -121,7 +119,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -141,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
+  			   <li class="grid"><a class="color2" href="#">Sidharth's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -175,7 +173,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-			curl_setopt($ch, CURLOPT_URL, "http://robotsstore.com/getList.php");
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -193,9 +191,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical goods</a>
+				<li class="grid"><a class="color2" href="#">Gurnoor's</a>
 				<div class="megapanel">
-				<p><b>Want to dive in the magical world ?</b></p>
+				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
 						<div class="col1">
 							<div class="h_nav">
@@ -228,7 +226,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://www.gurnoors.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -248,7 +246,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="virajproducts.php">Second hand products</a>
+				<li class="grid"><a class="color2" href="#">Viraj's</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -303,7 +301,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
+				<li class="grid"><a class="color2" href="#">Arun's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -338,7 +336,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -409,10 +407,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <div class="clear"></div>
      	</div>
        </div>
-
-
-	   
-	   <!-- Add any code below this. Above is header -->
        <div class="index-banner">
        	  <div class="wmuSlider example1" style="height: 560px;">
 			  <div class="wmuSliderWrapper">
@@ -510,7 +504,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://www.labheshdeshpande.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -557,11 +551,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  </div>
 			 </div>
         </div>
-
-
-
-		
-		<!-- Add any code above this. Below is footer -->
         <div class="footer">
        	  <div class="footer-top">
        		<div class="wrap">
@@ -589,7 +578,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like and share us</p>
 					</div>
 					<div class="cont span_2_of_c1">
-					 <div class="social">	
+					  <div class="social">	
 					     <ul>	
 						  <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
 						 </li>
@@ -664,10 +653,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   js.id = id;
   js.src = "https://platform.twitter.com/widgets.js";
   fjs.parentNode.insertBefore(js, fjs);
+
   t._e = [];
   t.ready = function(f) {
     t._e.push(f);
   };
+
   return t;
 }(document, "script", "twitter-wjs"));</script>
 
@@ -680,19 +671,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/584b0a8ee2def07b70ab53ce/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 </body>
 </html>

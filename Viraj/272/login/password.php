@@ -31,6 +31,9 @@
         $query = mysqli_query($con, $sql);
 
         if($query){
+            // Add sid line here
+            
+            
             header('Location: http://www.robotsstore.co/272/272/');
             echo '<p align="center">You have signed up successfully. Welcome2.<br>Welcome to RobotsStore.</p>';
         }

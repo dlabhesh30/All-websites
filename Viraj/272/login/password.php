@@ -35,9 +35,12 @@
 
         if($query){
             // Add sid line here
+            $message="Welcome to iShopMarket. Your Sign-Up was successful.";
+             $em = (string) "$_POST[email]";
+             mail($em,"Sign Up Successful",$message,"From: marketplace272@gmail.com");
+             
             $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
-            $home = $current_url_parent."/index.html";
-            
+            $home = dirname($current_url_parent);
             header('Location: '.$home);
             echo '<p align="center">You have signed up successfully. Welcome2.<br>Welcome to RobotsStore.</p>';
         }

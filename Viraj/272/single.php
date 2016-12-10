@@ -92,7 +92,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="wrap">
       <!-- start header menu -->
     <ul class="megamenu skyblue">
-        <li><a class="color1" href="index.html">Home</a></li>
+        <li><a class="color1" href="index.php">Home</a></li>
       <li class="grid"><a class="color2" href="#">Labhesh's</a>
         <div class="megapanel">
         <p><b>Want to buy Guitars ?</b></p>
@@ -568,7 +568,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </li>
             <li class="tw"><a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
-              data-size="large">
+              data-size="small">
             Tweet</a></li>
             <li class="g_plus"><div class="g-plusone" data-annotation="none"></div></li>
             <li class="rss"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
@@ -580,6 +580,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
+
          <?php 
        $ch = curl_init();
 
@@ -594,6 +595,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       print("$contents");
       
       ?>
+
+     <?php 
+                 $ch = curl_init();
+
+                 $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                  print_r($matches_out[0]);
+                      
+                  
+                curl_setopt($ch, CURLOPT_URL, "$matches_out[0]/getList.php");
+
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+      }
+              ?>  
+         
+>>>>>>> 94a228b92d4f925857f017d8227fe4c4f0fdf906
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

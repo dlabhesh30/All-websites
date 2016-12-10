@@ -1,4 +1,3 @@
-
 <?php
   extract($_POST);
   //check if username and password is left blank 
@@ -14,7 +13,7 @@
 	}
 	session_start();
   $_SESSION["Username"] = $username;
-
+    
     $host = 'robotsstore.co';
       $user='sidharth11';
       $pass = 'sidharth11';
@@ -42,8 +41,9 @@
              $psw = $itt['password'];
              
              if(strcmp($psw, $_POST[password]) == 0){
-                 
-                 echo '<p align="center">Login Success.</p>';
+
+                 header('Location: http://www.robotsstore.co/272/272/');
+                  echo '<p align="center">Login Success.</p>';
              }
              else{
                   

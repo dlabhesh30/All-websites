@@ -29,10 +29,8 @@
         
         $em=$_POST['email'];
         
-        $sql = "SELECT `password` FROM `marketusers` WHERE 'email'=".'"'.$em.'"';
-        print($sql);
+        $sql = "SELECT `password` FROM `marketusers` WHERE `email`=".'"'.$em.'"';
         $query = mysqli_query($con, $sql);
-        // print($query);
         $v = mysqli_num_rows($query);
         print($v);
         if($v == 0){
@@ -54,7 +52,7 @@
                 $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
                 //TODO: check for root dir
                 $home_page = dirname($current_url_parent);
-                 header('Location: '.$ho);
+                 header('Location: '.$home_page);
                  echo '<p align="center">Login Success.</p>';
              }
              else{

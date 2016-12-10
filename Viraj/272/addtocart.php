@@ -41,8 +41,7 @@ $conn->commit();
 $conn->close();
 
 #echo $conn;
-echo gettype($Price);
-print_r($result);
+print("Added ".$Name." into ".$username." 's cart.");
 
 ?>
 </body>

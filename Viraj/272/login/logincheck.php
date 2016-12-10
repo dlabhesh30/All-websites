@@ -39,6 +39,13 @@
              $psw = $itt['password'];
              
              if(strcmp($psw, $_POST[password]) == 0){
+               // start session
+               if (session_status() != PHP_SESSION_NONE) {
+                  session_unset();
+                  session_destroy();
+                }
+                session_start();
+                $_SESSION["Username"] = $em;
                  header('Location: http://www.robotsstore.co/272/272/');
                  echo '<p align="center">Login Success.</p>';
              }

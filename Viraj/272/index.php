@@ -69,10 +69,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    </div>
 	    <div class="cssmenu">
 		   <ul>
-			 <li class="active"><a href="register.html">Sign up</a></li> 			 
+			 <li class="active"><a href="register.html">Sign up</a></li> 
+			 <li><a href="shop.html">Inventory</a></li> 
 			 <li><a href="login.html">My Account</a></li> 
 			 <li><a href="checkout.html">CheckOut</a></li> 
-			 <li><a href="index.php">Logout</a></li>
 		   </ul>
 		</div>
 		
@@ -84,7 +84,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    		<!-- start header menu -->
 		<ul class="megamenu skyblue">
 		    <li><a class="color1" href="index.html">Home</a></li>
-			<li class="grid"><a class="color2" href="labheshproducts.php">Guitar's</a>
+			<li class="grid"><a class="color2" href="#">Labhesh's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>
 					<div class="row">
@@ -135,11 +135,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						
+						<img src="images/nav_img.jpg" alt=""/>
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="#">Robot's</a>
+  			   <li class="grid"><a class="color2" href="#">Sidharth's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -187,11 +187,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						
+						<img src="images/nav_img1.jpg" alt=""/>
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Mystical</a>
+				<li class="grid"><a class="color2" href="#">Gurnoor's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
@@ -242,11 +242,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						
+						<img src="images/nav_img2.jpg" alt=""/>
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Second hand goods</a>
+				<li class="grid"><a class="color2" href="#">Viraj's</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -297,11 +297,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						
+						<img src="images/nav_img.jpg" alt=""/>
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Car's</a>
+				<li class="grid"><a class="color2" href="#">Arun's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -352,7 +352,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						
+						<img src="images/nav_img.jpg" alt=""/>
 					</div>
 				</div>
 				</li>
@@ -578,7 +578,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like and share us</p>
 					</div>
 					<div class="cont span_2_of_c1">
-					   <div class="social">	
+					  <div class="social">	
 					     <ul>	
 						  <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
 						 </li>
@@ -602,7 +602,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			     		</div>
 						<div class="clear"> </div>
 					  </div>
-					  <div class="clear"></div>				
+					  <div class="clear"></div>			
 				   
        	 </div>
        	 

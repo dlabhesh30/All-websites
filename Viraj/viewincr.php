@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT * FROM Products WHERE Name='$_POST['Name']'";
+$sql = "SELECT * FROM Products WHERE Name='$name'";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
   $num=$row['Views'];
   $num=$num+1;
   
-$sql = "UPDATE Products SET Views='$num' WHERE Name='$_POST['Name']'";
+$sql = "UPDATE Products SET Views='$num' WHERE Name='$name'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Record updated successfully";

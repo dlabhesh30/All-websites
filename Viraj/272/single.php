@@ -522,6 +522,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div><?php 
     extract($_POST);
 
+                 $ch = curl_init();
+
+                 $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                  
+                      
+                  $post='name='.$Name;
+                curl_setopt($ch, CURLOPT_URL, implode(' ',$matches_out[0]).'/viewincr.php');
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+                
+      }
+            
     echo '<div class="cont span_2_of_3">
         <div class="labout span_1_of_a1">
         <!-- start product_slider -->
@@ -574,6 +594,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
+     
          <?php 
                  $ch = curl_init();
 
@@ -593,6 +614,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 print("$contents");
       }
               ?> 
+              
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

@@ -569,7 +569,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </li>
             <li class="tw"><a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
-              data-size="large">
+              data-size="small">
             Tweet</a></li>
             <li class="g_plus"><div class="g-plusone" data-annotation="none"></div></li>
             <li class="rss"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>

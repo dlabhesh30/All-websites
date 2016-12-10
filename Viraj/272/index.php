@@ -70,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    <div class="cssmenu">
 		   <ul>
 			 <li class="active"><a href="register.html">Sign up</a></li> 
-			 
+			 <li><a href="shop.html">Inventory</a></li> 
 			 <li><a href="login.html">My Account</a></li> 
 			 <li><a href="checkout.html">CheckOut</a></li> 
 		   </ul>
@@ -85,7 +85,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<ul class="megamenu skyblue">
 
 		    <li><a class="color1" href="index.php">Home</a></li>
-			<li class="grid"><a class="color2" href="labheshproducts.php">Guitars</a>
+			<li class="grid"><a class="color2" href="#">Guitars</a>
 
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>
@@ -121,7 +121,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -141,7 +141,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
+  			   <li class="grid"><a class="color2" href="#">Robot's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -175,7 +175,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-			curl_setopt($ch, CURLOPT_URL, "http://robotsstore.com/getList.php");
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -193,9 +193,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical goods</a>
+				<li class="grid"><a class="color2" href="#">Gurnoor's</a>
 				<div class="megapanel">
-				<p><b>Want to dive in the magical world ?</b></p>
+				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
 						<div class="col1">
 							<div class="h_nav">
@@ -228,7 +228,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://www.gurnoors.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -248,7 +248,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="virajproducts.php">Second hand products</a>
+				<li class="grid"><a class="color2" href="#">Viraj's</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -303,7 +303,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
+				<li class="grid"><a class="color2" href="#">Arun's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -338,7 +338,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -506,7 +506,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://www.labheshdeshpande.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -580,64 +580,72 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like and share us</p>
 					</div>
 					<div class="cont span_2_of_c1">
-					 <div class="social">	
-					     <ul>	
-						  <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
-						 </li>
-						 </ul>
-			   		   </div>
-					   <div class="social">	
-						   <ul>	
-							  <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="large" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
-						  </ul>
-			     		</div>
-						 <div class="social">	
-						   <ul>	
-							  <li class="google"><div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/100326371872033153064" data-rel="author"></li>
-						   </ul>
-			    		 </div>
-						 <div class="social">	
-						   <ul>	
-							  <li class="dot"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-<script type="IN/FollowCompany" data-id="1337"></script></li>
-						  </ul>
-			     		</div>
-						<div class="clear"> </div>
-					  </div>
-					  <div class="clear"></div>			
-				   
-       	 </div>
-       	 
-       	 <style>
-       #hide{
-       	color: black;
-       }
-       </style>
-       	 <div class="copy" id="hide" style="#hide{color: black;}">
-       	   <div class="wrap">
-       	   	  <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
-       	   </div>
-       	 </div>
+					  <div class="social">  
+               <ul> 
+              <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
+             </ul>
+               </div>
+             <div class="social"> 
+               <ul> 
+                <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+              </ul>
+              </div>
+             <div class="social"> 
+               <ul> 
+                <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+               </ul>
+               </div>
+             <div class="social"> 
+               <ul> 
+                <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+              </ul>
+              </div>
+            <div class="clear"> </div>
+            </div>
+            <div class="clear"></div>     
+           
+         </div>
+         
+        
+         <div class="copy" id="hide">
+           <div class="wrap">
+              <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
+           </div>
+         </div>
        </div>
 
        <script type="text/javascript">
-			$(document).ready(function() {
-			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
+      $(document).ready(function() {
+      
+        var defaults = {
+            containerID: 'toTop', // fading element id
+          containerHoverID: 'toTopHover', // fading element hover id
+          scrollSpeed: 1200,
+          easingType: 'linear' 
+        };
+        
+        
+        $().UItoTop({ easingType: 'easeOutQuart' });
+        
+      });
+    </script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -646,31 +654,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
-<script>(function(d, s, id) {
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<script src="https://apis.google.com/js/platform.js" async defer></script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -685,5 +678,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
 </body>
 </html>

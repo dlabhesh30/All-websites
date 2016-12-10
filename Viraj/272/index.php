@@ -409,10 +409,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <div class="clear"></div>
      	</div>
        </div>
-
-
-	   
-	   <!-- Add any code below this. Above is header -->
        <div class="index-banner">
        	  <div class="wmuSlider example1" style="height: 560px;">
 			  <div class="wmuSliderWrapper">
@@ -557,11 +553,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			  </div>
 			 </div>
         </div>
-
-
-
-		
-		<!-- Add any code above this. Below is footer -->
         <div class="footer">
        	  <div class="footer-top">
        		<div class="wrap">

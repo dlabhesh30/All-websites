@@ -504,7 +504,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -518,7 +518,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.co/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

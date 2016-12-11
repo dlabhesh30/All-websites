@@ -505,7 +505,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://robotsstore.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -519,7 +519,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -533,7 +533,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getOne.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -542,11 +542,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>		
+							?>	
+
 				  <div class="clear"></div>
 			  </div>
 			  <div class="box1">
-				  
+				  <?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>	
+							<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getOne.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>	
 				  <div class="clear"></div>
 			    </div>
 			  </div>

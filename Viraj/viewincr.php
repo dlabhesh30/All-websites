@@ -31,17 +31,14 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error updating record: " . $conn->error;
 }
-  /*  $myfile = fopen("track.txt", "w") or die("Unable to open file!");
-$txt = "$name";
-while(! feof($myfile))
-  {
-  $txt=$txt."/n".fgets($myfile);
-  }
-fwrite($myfile, $txt);
-fclose($myfile);*/
+  
 
 }
+$myfile = fopen("track.txt", "w") or die("Unable to open file!");
+$txt = "$name";
 
+fwrite($myfile, $txt);
+fclose($myfile);
 
 $conn->close();
 ?>

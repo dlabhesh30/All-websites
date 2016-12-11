@@ -418,7 +418,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		            <label>Sort By : </label>
 		             <inline> &nbsp;&nbsp;&nbsp;<a href="virajviews.php">MostVisited</a>
 		             &nbsp;&nbsp;&nbsp;<a href="virajrating.php">Ratings </a>
-		              &nbsp;&nbsp;&nbsp;<a href="virajproducts.php">Popularity</a></inline>		        
+		              &nbsp;&nbsp;&nbsp;<a href="virajproducts.php">Popularity</a>&nbsp;&nbsp;&nbsp;<a href="cookies.php">Recently Visited</a></inline>	        
                </div>
     		  </div>	         
      	    <div class="clear"></div>

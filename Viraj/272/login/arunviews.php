@@ -416,9 +416,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="sort">
                	<div class="sort-by">
 		            <label>Sort By : </label>
-		             <inline> &nbsp;&nbsp;&nbsp;<a href="myhelpinghandonline.com/272/virajviews.php">MostVisited</a>
-		             &nbsp;&nbsp;&nbsp;<a href="myhelpinghandonline.com/272/virajratings.php">Ratings </a>
-		              &nbsp;&nbsp;&nbsp;<a href="myhelpinghandonline.com/272/virajproducts.php">Popularity</a></inline>		        
+		             <inline> &nbsp;&nbsp;&nbsp;<a href="virajviews.php">MostVisited</a>
+		             &nbsp;&nbsp;&nbsp;<a href="virajratings.php">Ratings </a>
+		              &nbsp;&nbsp;&nbsp;<a href="virajproducts.php">Popularity</a></inline>		        
                </div>
     		  </div>	         
      	    <div class="clear"></div>

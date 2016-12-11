@@ -42,7 +42,7 @@
             $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
             $home = $current_url_parent."/index.php";
             
-            header('Location: http://labheshdeshpande.com/272/');
+            header('Location: http://myhelpinghandonline.com/272/');
             echo '<p align="center">You have signed up successfully. Welcome2.<br>Welcome to RobotsStore.</p>';
         }
         else{

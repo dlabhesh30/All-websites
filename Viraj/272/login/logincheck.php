@@ -44,7 +44,7 @@
                 session_start();
                 $_SESSION["Username"] = $em;
                 
-                 header('Location: http://labheshdeshpande.com/272/');
+                 header('Location: http://myhelpinghandonline.com/272/');
                  echo '<p align="center">Login Success.</p>';
              }
              else{

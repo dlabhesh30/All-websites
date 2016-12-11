@@ -417,7 +417,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                	<div class="sort-by">
 		            <label>Sort By : </label>
 		             <inline> &nbsp;&nbsp;&nbsp;<a href="virajviews.php">MostVisited</a>
-		             &nbsp;&nbsp;&nbsp;<a href="virajratings.php">Ratings </a>
+		             &nbsp;&nbsp;&nbsp;<a href="virajrating.php">Ratings </a>
 		              &nbsp;&nbsp;&nbsp;<a href="virajproducts.php">Popularity</a></inline>		        
                </div>
     		  </div>	         
@@ -428,7 +428,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 $ch = curl_init();
 
 
-			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/GetProducts.php");
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/orderbyrating.php");
 
 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

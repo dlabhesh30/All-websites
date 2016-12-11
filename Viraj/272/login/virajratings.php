@@ -428,7 +428,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			 $ch = curl_init();
 
 
-			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/GetProducts.php");
+			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/orderbyrating.php");
 
 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

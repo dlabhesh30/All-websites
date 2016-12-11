@@ -17,9 +17,9 @@
 
     else{
       $host = 'localhost';
-      $user='myhelpi3_root';
-      $pass = 'chachi420';
-      $db='myhelpi3_Users';
+      $user='dlabhesh30';
+      $pass = 'nyc1788';
+      $db='labhesh_db';
       // $host = 'robotsstore.co';
       // $user='sidharth11';
       // $pass = 'sidharth11';
@@ -29,23 +29,24 @@
         echo '<p align="center">Connection to the database could not be made.<br>Please try after some time.</p>';
       }
       else{
-        $sql = "INSERT INTO `marketusers`(`name`, `email`, `password`, `company`, `address`, `country`, `city`, `code`, `number`) VALUES ('$_POST[name]', '$_POST[email]', '$_POST[password]', '$_POST[company]', '$_POST[address]', '$_POST[country]', '$_POST[city]', '$_POST[code]', '$_POST[number]')";
+        $sql = "INSERT INTO marketusers(name, email, password, company, address, country, city, code, number) VALUES ('$_POST[name]', '$_POST[email]', '$_POST[password]', '$_POST[company]', '$_POST[address]', '$_POST[country]', '$_POST[city]', '$_POST[code]', '$_POST[number]')";
 
         $query = mysqli_query($con, $sql);
 
         if($query){
-            // Add sid line here
             $message="Welcome to iShopMarket. Your Sign-Up was successful.";
+
+
              $em = (string) "$_POST[email]";
              mail($em,"Sign Up Successful",$message,"From: marketplace272@gmail.com");
-             
             $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
-            $home = dirname($current_url_parent);
-            header('Location: '.$home);
+            $home = $current_url_parent."/index.php";
+            
+            header('Location: http://labheshdeshpande.com/272/');
             echo '<p align="center">You have signed up successfully. Welcome2.<br>Welcome to RobotsStore.</p>';
         }
         else{
-          echo '<p align="center">There was an error while executing your query.<br>Please try after some time.</p>'; 
+          echo '<p align="center">The email id already exists.<br>Please try with some other email id.</p>'; 
         }
       }  
     }

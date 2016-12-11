@@ -411,7 +411,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      	</div>
        </div>
        <div class="main">
-       	<div class="wrap">	      
+       	<div class="wrap">	  
+       	<div class="mens-toolbar">
+              <div class="sort">
+               	<div class="sort-by">
+		            <label>Sort By : </label>
+		             <inline> &nbsp;&nbsp;&nbsp;<a href="www.labheshdeshpande.com/272/login.html">Popularity </a>
+		             &nbsp;&nbsp;&nbsp;<a href="LINK2.html">View </a>
+		              &nbsp;&nbsp;&nbsp;<a href="LINK3.html">Most visited </a></inline>		        
+               </div>
+    		  </div>	         
+     	    <div class="clear"></div>
+	       </div>    
          <div class="content-bottom">
              <?php 
 			 $ch = curl_init();

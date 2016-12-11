@@ -12,24 +12,19 @@
   if(isset($login)){
     
 
-     $host = 'localhost';
-      $user='myhelpi3_root';
-      $pass = 'chachi420';
-      $db='myhelpi3_Users';
-      // $host = 'robotsstore.co';
-      // $user='sidharth11';
-      // $pass = 'sidharth11';
-      // $db='RobotsStore';
+       $host = 'localhost';
+      $user='dlabhesh30';
+      $pass = 'nyc1788';
+      $db='labhesh_db';
    
       $con = mysqli_connect($host,$user,$pass,$db);
       if(!$con){
         echo '<p align="center">Connection to the database could not be made.<br>Please try after some time.</p>';
       }
       else{
+           $em=$_POST[email];
         
-        $em=$_POST['email'];
-        
-        $sql = "SELECT `password` FROM `marketusers` WHERE `email`=".'"'.$em.'"';
+        $sql = "SELECT password FROM marketusers WHERE email='".$em."'";
         $query = mysqli_query($con, $sql);
         $v = mysqli_num_rows($query);
         print($v);
@@ -49,18 +44,18 @@
                 }
                 session_start();
                 $_SESSION["Username"] = $em;
-                $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
-                //TODO: check for root dir
-                $home_page = dirname($current_url_parent);
-                 header('Location: '.$home_page);
+                
+                 header('Location: http://labheshdeshpande.com/272/');
                  echo '<p align="center">Login Success.</p>';
              }
              else{
                   
                   echo '<p align="center">Login Failure.</p>';
-             }
-        }  
+             }     
+        
+          }
      }
+      
   }
 ?>
 

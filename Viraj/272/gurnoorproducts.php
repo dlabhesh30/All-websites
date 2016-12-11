@@ -140,7 +140,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="#">Robot's</a>
+  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -192,7 +192,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Mystical</a>
+				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical</a>
 				<div class="megapanel">
 				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
@@ -247,7 +247,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Second hand goods</a>
+				<li class="grid"><a class="color2" href="virajproducts.php">Second hand goods</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -302,7 +302,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Car's</a>
+				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">

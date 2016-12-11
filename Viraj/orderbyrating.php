@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT * FROM Products";
+$sql = "SELECT * FROM Products ORDER BY Rating DESC";
 
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
                  <div class="grid_img">
                <div class="css3"><img src="'.$row['Image'].'" alt="" height="300"/></div>
                     <div class="mask">
-                            <div class="info"><input type="submit" value="View"></div>
+                            <div class="info"><input type="submit" value="View" class="astext"></div>
                         </div>
                       </div>
                        <div class="price">$'.$row['Price'].'</div>

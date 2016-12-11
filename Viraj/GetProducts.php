@@ -1,8 +1,8 @@
 <?php 
   $server = "localhost";
-  $user = "arunkuma_user";
-  $pass = "arunkuma_user";
-  $db = "arunkuma_user";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
 
 
 $conn = new mysqli($server, $user, $pass, $db);

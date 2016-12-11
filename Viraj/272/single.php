@@ -521,7 +521,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </section>
     </div><?php 
     extract($_POST);
+    $ch = curl_init();
 
+                 $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                  
+                      
+                  $post='name='.$Name;
+                curl_setopt($ch, CURLOPT_URL, implode(' ',$matches_out[0]).'/viewincr.php');
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+              }
     echo '<div class="cont span_2_of_3">
         <div class="labout span_1_of_a1">
         <!-- start product_slider -->
@@ -574,13 +591,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
-         <ul id="flexiselDemo3">
-      <li><img src="images/pic11.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic10.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic9.jpg" /><div class="grid-flex"><a href="#">Zumba</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic8.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
-      <li><img src="images/pic7.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
-     </ul>
+         <?php 
+                 $ch = curl_init();
+
+                 $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                  
+                      
+                  
+                curl_setopt($ch, CURLOPT_URL, implode(' ',$matches_out[0]).'/getSlider.php');
+
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+      }
+              ?> 
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();

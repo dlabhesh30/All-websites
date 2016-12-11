@@ -16,10 +16,10 @@
     }
 
     else{
-      $host = 'localhost';
-      $user='dlabhesh30';
-      $pass = 'nyc1788';
-      $db='labhesh_db';
+      $host = "localhost";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
       // $host = 'robotsstore.co';
       // $user='sidharth11';
       // $pass = 'sidharth11';

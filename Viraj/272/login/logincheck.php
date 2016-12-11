@@ -12,11 +12,10 @@
   if(isset($login)){
     
 
-       $host = 'localhost';
-      $user='dlabhesh30';
-      $pass = 'nyc1788';
-      $db='labhesh_db';
-   
+       $host = "localhost";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
       $con = mysqli_connect($host,$user,$pass,$db);
       if(!$con){
         echo '<p align="center">Connection to the database could not be made.<br>Please try after some time.</p>';

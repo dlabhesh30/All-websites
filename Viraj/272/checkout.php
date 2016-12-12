@@ -14,19 +14,15 @@ aadding somethg
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <style>
-td
-{border-left:1px solid black;
-border-top:1px solid black;
-text-align: center;
+td {
+    text-align: center;
 }
-table
-{border-right:1px solid black;
-border-bottom:1px solid black;
-border-top:1px solid black;
-border-left:1px solid black;
+img {
+	height : 100px;
+	width : 200px;
 }
-
 </style>
 <script type="text/javascript">
         $(document).ready(function() {
@@ -453,8 +449,8 @@ border-left:1px solid black;
 								  $Price = intval($_POST["Price"]);
 								  $Image = $_POST["Image"];
 								  $sql = "select  Name, Price, Image, Description, count(*) as Quantity from cart where Username = '$username' group by  Name, Price, Image, Description";
-								  print '<table>';
-								  print '<tr><td>Product</td><td>Quantity</td><td>Price</td></tr>';
+								  print '<table class="table table-striped">';
+								  print '<tr><td>Product</td><td>Quantity</td><td>Price</td><td>Model</td></tr>';
 								 
 								 
 								$result = $conn->query($sql);
@@ -463,7 +459,7 @@ border-left:1px solid black;
 								  	$row['Price'] = $row['Price'] * $row['Quantity'];
 								  	$total = $total + $row['Price'];
 
-								  echo  "<tr><td>".$row['Name'] . "</td><td> " . $row['Quantity'] . "</td><td> " . $row['Price'] . "</td></tr>" ;
+								  echo  "<tr><td>".$row['Name'] . "</td><td> " . $row['Quantity'] . "</td><td> " . $row['Price'] . "</td><td><img src = '".$row['Image'] ."' /></td></tr>" ;
 								 
 								  }
 								   print "</table>";
@@ -472,7 +468,7 @@ border-left:1px solid black;
 								$conn->commit();
 								$conn->close();
 								echo '</br></br></br></br>';
-								echo '<center><h1>Total Price :  '.$total. '</h2></center>';
+								echo '<center><h1>Total Price :  '.$total. '$</h2></center>';
 
 
 

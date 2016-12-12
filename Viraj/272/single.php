@@ -92,7 +92,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="wrap">
       <!-- start header menu -->
     <ul class="megamenu skyblue">
-        <li><a class="color1" href="index.html">Home</a></li>
+        <li><a class="color1" href="index.php">Home</a></li>
       <li class="grid"><a class="color2" href="#">Labhesh's</a>
         <div class="megapanel">
         <p><b>Want to buy Guitars ?</b></p>
@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -183,7 +183,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://robotsstrore.co/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -238,7 +238,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -348,7 +350,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -579,7 +581,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </li>
             <li class="tw"><a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
-              data-size="large">
+              data-size="small">
             Tweet</a></li>
             <li class="g_plus"><div class="g-plusone" data-annotation="none"></div></li>
             <li class="rss"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
@@ -692,32 +694,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <div class="cont span_2_of_c1">
             <div class="social">  
                <ul> 
-              <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
+              <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
+             </li>
              </ul>
                </div>
              <div class="social"> 
                <ul> 
-                <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+                <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="small" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
               </ul>
               </div>
              <div class="social"> 
                <ul> 
-                <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+                <li class="google"><div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/100326371872033153064" data-rel="author"></li>
                </ul>
                </div>
              <div class="social"> 
                <ul> 
-                <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+                <li class="dot"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="1337"></script></li>
               </ul>
               </div>
             <div class="clear"> </div>
             </div>
-            <div class="clear"></div>     
+            <div class="clear"></div>       
            
          </div>
          
-        
-         <div class="copy" id="hide">
+         <style>
+       #hide{
+        color: black;
+       }
+       </style>
+         <div class="copy" id="hide" style="#hide{color: black;}">
            <div class="wrap">
               <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
            </div>
@@ -740,7 +748,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       });
     </script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-        <script>window.twttr = (function(d, s, id) {
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
   if (d.getElementById(id)) return t;
@@ -756,7 +775,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
-<div id="fb-root"></div>
+
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -764,30 +783,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-<script>
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/584b0a8ee2def07b70ab53ce/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
 </body>
 </html>

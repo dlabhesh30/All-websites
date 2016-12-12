@@ -78,10 +78,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	    </div>
 	    <div class="cssmenu">
 		   <ul>
-			 <li class="active"><a href="register.html">Sign up</a></li> 
-			 <li><a href="shop.html">Inventory</a></li> 
+			 <li class="active"><a href="register.html">Sign up</a></li> 			 
 			 <li><a href="login.html">My Account</a></li> 
-			 <li><a href="checkout.html">CheckOut</a></li> 
+			 <li><a href="checkout.html">CheckOut</a></li>
+			  
+			 <li><a href="index.php">Logout</a></li>
 		   </ul>
 		</div>
 		
@@ -92,8 +93,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    	<div class="wrap">
    		<!-- start header menu -->
 		<ul class="megamenu skyblue">
-		    <li><a class="color1" href="index.html">Home</a></li>
-			<li class="grid"><a class="color2" href="#">Labhesh's</a>
+		    <li><a class="color1" href="index.php">Home</a></li>
+			<li class="grid"><a class="color2" href="labheshproducts.php">Guitar's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Guitars ?</b></p>
 					<div class="row">
@@ -124,24 +125,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="#">Sidharth's</a>
+  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -171,25 +179,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col1">
 							<div class="h_nav">
-								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<h4>All Products</h4><?php
+								 $ch = curl_init();
+
+
+			curl_setopt($ch, CURLOPT_URL, "http://robotsstore.co/getList.php");
+
+
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+			$contents = curl_exec ($ch);
+			print("$contents"); ?>
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img1.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Gurnoor's</a>
+				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical</a>
 				<div class="megapanel">
 				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
@@ -220,24 +232,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img2.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Viraj's</a>
+				<li class="grid"><a class="color2" href="virajproducts.php">Second hand goods</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -268,24 +287,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Arun's</a>
+				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -316,20 +342,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1">
 							<div class="h_nav">
 								<h4>All Products</h4>
-								<ul>
-									<li><a href="shop.html">men</a></li>
-									<li><a href="shop.html">women</a></li>
-									<li><a href="shop.html">accessories</a></li>
-									<li><a href="shop.html">kids</a></li>
-									<li><a href="shop.html">brands</a></li>
-								</ul>	
+								<?php 
+								 $ch = curl_init();
+
+
+								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
+
+
+								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+
+								$contents = curl_exec ($ch);
+								print("$contents");
+			
+							?>		
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
@@ -349,7 +382,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="h_nav">
 								<h4>Sidharth</h4>
 								<ul>
-								<li><a href="http://www.your_site.com">Go to your_name</a></li>		
+								<li><a href="http://www.robotsstore.co">Go to Robots Store</a></li>		
 								</ul>	
 							</div>
 						</div>	
@@ -357,7 +390,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="h_nav">
 								<h4>Gurnoor</h4>
 								<ul>
-								<li><a href="http://www.your_site.com">Go to your_name</a></li>		
+								<li><a href="http://www.gurnoors.com">Go to Gurnoors.com</a></li>		
 								</ul>	
 							</div>
 						</div>
@@ -365,7 +398,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="h_nav">
 								<h4>Viraj</h4>
 								<ul>
-								<li><a href="http://www.your_site.com">Go to your_name</a></li>		
+								<li><a href="http://www.myhelpinghandonline.com">Go to My helping hand.com</a></li>		
 								</ul>	
 							</div>
 						</div>
@@ -373,7 +406,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="h_nav">
 								<h4>Arun	</h4>
 								<ul>
-								<li><a href="http://www.your_site.com">Go to your_name</a></li>		
+								<li><a href="http://www.arunkumarweb.com">Go to Arunkumar.com</a></li>		
 								</ul>	
 							</div>
 						</div>
@@ -383,7 +416,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   </ul>
 		   <div class="clear"></div>
      	</div>
-       </div>       
+       </div>
        <div class="login">
          <div class="wrap">
      	    <div class="rsidebar span_1_of_left">
@@ -594,32 +627,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="cont span_2_of_c1">
 					  <div class="social">	
 					     <ul>	
-						  <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
+						  <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
+						 </li>
 						 </ul>
 			   		   </div>
 					   <div class="social">	
 						   <ul>	
-							  <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+							  <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="small" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
 						  </ul>
 			     		</div>
 						 <div class="social">	
 						   <ul>	
-							  <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+							  <li class="google"><div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/100326371872033153064" data-rel="author"></li>
 						   </ul>
 			    		 </div>
 						 <div class="social">	
 						   <ul>	
-							  <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
+							  <li class="dot"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="1337"></script></li>
 						  </ul>
 			     		</div>
 						<div class="clear"> </div>
 					  </div>
-					  <div class="clear"></div>			
+					  <div class="clear"></div>				
 				   
        	 </div>
        	 
-       	
-       	 <div class="copy" id="hide">
+       	 <style>
+       #hide{
+       	color: black;
+       }
+       </style>
+       	 <div class="copy" id="hide" style="#hide{color: black;}">
        	   <div class="wrap">
        	   	  <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
        	   </div>
@@ -642,18 +681,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		</script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/584b0a8ee2def07b70ab53ce/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>

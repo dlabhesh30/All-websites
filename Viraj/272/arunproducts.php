@@ -71,7 +71,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <ul>
 			 <li class="active"><a href="register.html">Sign up</a></li> 			 
 			 <li><a href="login.html">My Account</a></li> 
-			 <li><a href="checkout.html">CheckOut</a></li> 
+			 <li><a href="checkout.html">CheckOut</a></li>
 			 <li><a href="index.php">Logout</a></li>
 		   </ul>
 		</div>
@@ -119,7 +119,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -139,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="#">Robot's</a>
+  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -173,7 +173,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-			curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+			curl_setopt($ch, CURLOPT_URL, "http://robotsstore.co/getList.php");
 
 
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -191,7 +191,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Mystical</a>
+				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical</a>
 				<div class="megapanel">
 				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
@@ -226,7 +226,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -246,7 +246,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Second hand goods</a>
+				<li class="grid"><a class="color2" href="virajproducts.php">Second hand goods</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -301,7 +301,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Car's</a>
+				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -336,7 +336,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -408,7 +408,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      	</div>
        </div>
        <div class="main">
-       	<div class="wrap">	      
+       	<div class="wrap">	  
+       	<div class="mens-toolbar">
+              <div class="sort">
+               	<div class="sort-by">
+		            <label>Sort By : </label>
+		             <inline> &nbsp;&nbsp;&nbsp;<a href="arunviews.php">MostVisited</a>
+		             &nbsp;&nbsp;&nbsp;<a href="arunrating.php">Ratings </a>
+		              &nbsp;&nbsp;&nbsp;<a href="arunproducts.php">Popularity</a>&nbsp;&nbsp;&nbsp;<a href="cookies.php">Recently Visited</a></inline>		        
+               </div>
+    		  </div>	         
+     	    <div class="clear"></div>
+	       </div>    
          <div class="content-bottom">
              <?php 
 			 $ch = curl_init();
@@ -460,7 +471,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   		   </div>
 					   <div class="social">	
 						   <ul>	
-							  <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="large" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
+							  <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="small" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
 						  </ul>
 			     		</div>
 						 <div class="social">	
@@ -545,18 +556,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script src="https://apis.google.com/js/platform.js" async defer></script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/584b0a8ee2def07b70ab53ce/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
 </body>
 </html>

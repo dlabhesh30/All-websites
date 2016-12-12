@@ -598,8 +598,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                   $pattern="/.+(com)/";
                   if (preg_match_all($pattern, $some, $matches_out)) {
                   
-                      
-                  $post='name='.$Name;
+                      if($h1!=null){
+                        $post='name='.$Name.'&log='.$h1;
+                      }else{
+                        $post='name='.$Name.'&log='.'Someone';
+                      }
+                  
                 curl_setopt($ch, CURLOPT_URL, implode(' ',$matches_out[0]).'/viewincr.php');
                 curl_setopt($ch, CURLOPT_POST, true);
                 curl_setopt($ch, CURLOPT_POSTFIELDS, $post);

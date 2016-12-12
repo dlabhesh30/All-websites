@@ -501,48 +501,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
              	  
 				  <div class="content-bottom">
 				   <div class="box1">
-				    <?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
-							<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
-							<?php 
-								 $ch = curl_init();
-
-
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getOne.php");
-
-
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+				    
 				  <div class="clear"></div>
 			  </div>
 			  <div class="box1">

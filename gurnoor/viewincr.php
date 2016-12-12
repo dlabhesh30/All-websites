@@ -1,8 +1,8 @@
 	<?php 
   $server = "localhost";
-  $user = "gurnoors_admin";
-  $pass = "gurnoors_admin";
-  $db = "gurnoors_users";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
 
 extract($_POST);
 $conn = new mysqli($server, $user, $pass, $db);
@@ -34,12 +34,13 @@ if ($conn->query($sql) === TRUE) {
   
 
 }
-$myfile = fopen("track.txt", "w") or die("Unable to open file!");
-$txt = "$name";
-
-fwrite($myfile, $txt);
-fclose($myfile);
-
+$file = 'track.txt';
+// Open the file to get existing content
+$current = file_get_contents($file);
+// Append a new person to the file
+$current .= "\n$log viewed $name";
+// Write the contents back to the file
+file_put_contents($file, $current);
 $conn->close();
 ?>
 

@@ -1,3 +1,16 @@
+<?php
+if (session_status() == PHP_SESSION_NONE){
+  session_start();
+}
+
+$h1 = null;
+                if($_SESSION !== NULL && $_SESSION['Username'] != null ){
+                  $h1 = $_SESSION['Username'];
+                  //print('<h3>'.$h1.'</h3>');
+                }else{
+                  //print('<h3>'.'Not set'.'</h3>');
+                }
+?>
 <!--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com

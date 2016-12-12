@@ -1,0 +1,51 @@
+[11-Dec-2016 18:47:42 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 18:47:42 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 18:47:42 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 19:13:26 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 19:13:26 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 19:13:26 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 19:17:29 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 19:17:29 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 19:17:29 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 19:19:49 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 19:19:49 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 19:19:49 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 19:54:41 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 19:54:41 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 19:54:41 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 19:55:15 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 19:55:15 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 19:55:15 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:15:54 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:15:54 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:15:54 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:19:08 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:19:08 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:19:08 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:19:59 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:19:59 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:19:59 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:23:27 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:23:27 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:23:27 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:46:50 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:46:50 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:46:50 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:49:09 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:49:09 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:49:09 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:55:46 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:55:46 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:55:46 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 20:56:42 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 20:56:42 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 20:56:42 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 21:00:00 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 21:00:00 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 21:00:00 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 21:00:24 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 21:00:24 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 21:00:24 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38
+[11-Dec-2016 21:01:32 America/Denver] PHP Notice:  Undefined variable: username in /home1/myhelpi3/public_html/272/login/logincheck.php on line 4
+[11-Dec-2016 21:01:32 America/Denver] PHP Notice:  Use of undefined constant email - assumed 'email' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 24
+[11-Dec-2016 21:01:32 America/Denver] PHP Notice:  Use of undefined constant password - assumed 'password' in /home1/myhelpi3/public_html/272/login/logincheck.php on line 38

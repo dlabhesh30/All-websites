@@ -80,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   <ul>
 			 <li class="active"><a href="register.html">Sign up</a></li> 			 
 			 <li><a href="login.html">My Account</a></li> 
-			 <li><a href="checkout.html">CheckOut</a></li>
+			 <li><a href="checkout.php">CheckOut</a></li>
 			  
 			 <li><a href="index.php">Logout</a></li>
 		   </ul>

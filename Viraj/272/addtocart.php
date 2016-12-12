@@ -41,7 +41,7 @@ $conn->commit();
 $conn->close();
 
 #echo $conn;
-print("Added ".$Name." into ".$username." 's cart.");
+header("Location: http://www.myhelpinghandonline.com/272/index.php");
 
 ?>
 <!--Start of Tawk.to Script-->

@@ -47,3 +47,496 @@
 [11-Dec-2016 10:57:14 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/robotstore/public_html/272/gurnoorproducts.php on line 426
 [11-Dec-2016 10:57:14 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/robotstore/public_html/272/virajproducts.php on line 437
 [11-Dec-2016 10:57:15 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/robotstore/public_html/272/arunproducts.php on line 425
+[11-Dec-2016 19:32:49 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajrating.php on line 436
+[11-Dec-2016 19:32:49 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajrating.php on line 436
+[11-Dec-2016 19:32:55 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:32:55 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:32:57 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:32:57 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:34:59 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:34:59 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:35:53 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:35:53 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:35:55 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:35:55 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:35:56 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:35:56 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:47:28 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:47:28 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:48:51 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:48:51 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:48:58 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:48:58 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:50:45 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:50:45 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:51:50 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:51:50 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:51:50 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:51:50 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 19:52:02 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:52:02 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:52:02 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:52:02 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 19:52:08 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:52:08 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 19:52:35 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:52:35 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:52:45 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:52:45 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:52:45 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:52:45 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 19:54:15 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:54:15 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:54:18 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:54:18 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 19:54:32 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/addtocart.php on line 10
+[11-Dec-2016 19:54:58 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:54:58 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:54:58 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:54:58 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 19:55:35 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:55:35 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:55:39 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 19:55:39 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 19:55:54 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:55:54 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 19:58:46 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:58:46 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 19:59:03 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:59:03 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:59:03 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:59:03 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 19:59:04 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 19:59:04 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 19:59:04 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 19:59:04 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 20:00:05 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:00:05 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:11:21 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 528
+[11-Dec-2016 20:11:21 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 561
+[11-Dec-2016 20:11:21 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 565
+[11-Dec-2016 20:11:21 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 576
+[11-Dec-2016 20:11:21 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 599
+[11-Dec-2016 20:13:20 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 20:13:20 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 20:13:20 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 20:13:20 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 20:13:25 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:25 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:43 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:43 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:46 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:46 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:13:56 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 570
+[11-Dec-2016 20:15:41 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:15:41 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:00 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:00 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:04 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:04 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:24 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:24 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:16:28 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 570
+[11-Dec-2016 20:18:47 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:18:47 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:18:50 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:18:50 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:18:54 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:19:05 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 528
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 561
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 565
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 571
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 572
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 573
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 581
+[11-Dec-2016 20:19:15 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 604
+[11-Dec-2016 20:19:25 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:19:25 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:19:29 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:19:45 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 20:19:45 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 20:19:45 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 20:19:45 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 20:20:14 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/addtocart.php on line 33
+[11-Dec-2016 20:20:14 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/addtocart.php on line 34
+[11-Dec-2016 20:20:14 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/addtocart.php on line 35
+[11-Dec-2016 20:20:14 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/addtocart.php on line 36
+[11-Dec-2016 20:22:04 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:22:31 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:22:58 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:22:58 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:22:58 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:22:58 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:22:58 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:23:03 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 20:23:03 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/virajproducts.php on line 437
+[11-Dec-2016 20:23:09 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:23:09 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:23:09 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:23:09 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:23:09 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:23:10 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:23:34 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:23:34 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:23:37 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:23:37 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:23:53 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:23:53 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:23:53 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:23:53 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:23:53 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:25:00 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:25:00 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:25:41 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:25:41 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:25:41 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:25:41 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:25:41 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:25:45 America/Denver] PHP Notice:  Undefined variable: row in /home1/myhelpi3/public_html/272/single.php on line 574
+[11-Dec-2016 20:26:02 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:26:02 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:26:02 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:26:02 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:26:02 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:27:42 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:27:42 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:27:42 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:27:42 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:27:42 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:27:42 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:27:42 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/myhelpi3/public_html/272/single.php:140) in /home1/myhelpi3/public_html/272/single.php on line 588
+[11-Dec-2016 20:28:05 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:28:05 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:28:48 America/Denver] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:28:50 America/Denver] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:29:01 America/Denver] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:30:06 America/Denver] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:31:05 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:31:05 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:31:05 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:31:05 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:31:05 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:31:19 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:31:19 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:31:19 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:31:19 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:31:19 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:31:32 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:31:32 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:31:32 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:31:32 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:31:32 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:31:44 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:31:44 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:31:57 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:31:57 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:31:57 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:31:57 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:31:57 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:32:01 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:32:01 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:32:01 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:32:01 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:32:01 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:32:09 America/Denver] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:32:09 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:32:09 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/checkout.php on line 418
+[11-Dec-2016 20:32:09 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 424
+[11-Dec-2016 20:32:52 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:32:52 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:32:52 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:32:52 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:32:52 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:32:57 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:32:57 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:32:57 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:32:57 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:32:57 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:33:51 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:33:51 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:33:51 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:33:51 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:33:51 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:33:53 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:33:53 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:33:53 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:33:53 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:33:53 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:33:53 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:34:05 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:34:05 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:34:05 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:34:05 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:34:05 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:34:05 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:34:40 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:34:40 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:34:40 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:34:40 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:34:40 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:34:48 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:34:48 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:34:48 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:34:48 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:34:48 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:35:40 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:119) in /home1/myhelpi3/public_html/272/checkout.php on line 415
+[11-Dec-2016 20:35:40 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 436
+[11-Dec-2016 20:35:40 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 437
+[11-Dec-2016 20:35:40 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:35:40 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 439
+[11-Dec-2016 20:36:22 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:36:22 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:36:31 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 20:36:31 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 20:36:38 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:36:38 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 444
+[11-Dec-2016 20:36:38 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 445
+[11-Dec-2016 20:36:38 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 446
+[11-Dec-2016 20:36:38 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:36:52 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:36:52 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 444
+[11-Dec-2016 20:36:52 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 445
+[11-Dec-2016 20:36:52 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 446
+[11-Dec-2016 20:36:52 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:37:21 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:37:21 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 444
+[11-Dec-2016 20:37:21 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 445
+[11-Dec-2016 20:37:21 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 446
+[11-Dec-2016 20:37:21 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:37:25 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:37:25 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 444
+[11-Dec-2016 20:37:25 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 445
+[11-Dec-2016 20:37:25 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 446
+[11-Dec-2016 20:37:25 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:37:31 America/Denver] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:37:31 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 423
+[11-Dec-2016 20:37:31 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:37:31 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:127) in /home1/myhelpi3/public_html/272/checkout.php on line 432
+[11-Dec-2016 20:38:04 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/arunproducts.php on line 436
+[11-Dec-2016 20:38:04 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/arunproducts.php on line 436
+[11-Dec-2016 20:38:05 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:130) in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:38:05 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:38:05 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 448
+[11-Dec-2016 20:38:05 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:38:05 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:38:18 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/arunrating.php on line 437
+[11-Dec-2016 20:38:18 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/arunrating.php on line 437
+[11-Dec-2016 20:38:50 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:130) in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:38:51 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:38:51 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 448
+[11-Dec-2016 20:38:51 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:38:51 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:39:02 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 20:39:02 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshrating.php on line 437
+[11-Dec-2016 20:39:20 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:130) in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:39:20 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:39:20 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 448
+[11-Dec-2016 20:39:20 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:39:20 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:39:27 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshviews.php on line 437
+[11-Dec-2016 20:39:27 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshviews.php on line 437
+[11-Dec-2016 20:39:44 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:130) in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:39:44 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:39:44 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 448
+[11-Dec-2016 20:39:44 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:39:44 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:39:49 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/arunviews.php on line 437
+[11-Dec-2016 20:39:49 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/arunviews.php on line 437
+[11-Dec-2016 20:40:13 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/arunrating.php on line 437
+[11-Dec-2016 20:40:13 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/arunrating.php on line 437
+[11-Dec-2016 20:40:27 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:40:27 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:40:27 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:40:27 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:40:27 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:40:27 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:40:28 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:40:28 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:40:28 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:40:28 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:40:28 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:40:28 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:41:00 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:130) in /home1/myhelpi3/public_html/272/checkout.php on line 426
+[11-Dec-2016 20:41:00 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 447
+[11-Dec-2016 20:41:00 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 448
+[11-Dec-2016 20:41:00 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 449
+[11-Dec-2016 20:41:00 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:41:03 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:41:03 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorproducts.php on line 437
+[11-Dec-2016 20:42:09 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorrating.php on line 437
+[11-Dec-2016 20:42:09 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorrating.php on line 437
+[11-Dec-2016 20:42:46 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:42:46 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:42:46 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:42:46 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:42:46 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:43:42 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:43:42 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:43:42 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:43:42 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:43:42 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:44:11 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:44:11 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:44:11 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:44:11 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:44:11 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:44:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:44:20 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:44:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:44:20 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:44:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:44:20 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:44:40 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/gurnoorviews.php on line 437
+[11-Dec-2016 20:44:40 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/gurnoorviews.php on line 437
+[11-Dec-2016 20:44:58 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/single.php on line 7
+[11-Dec-2016 20:44:58 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:44:58 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:44:58 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:44:58 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:44:58 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:44:58 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:44:59 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 600
+[11-Dec-2016 20:44:59 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 639
+[11-Dec-2016 20:44:59 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 643
+[11-Dec-2016 20:44:59 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 654
+[11-Dec-2016 20:44:59 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 678
+[11-Dec-2016 20:45:33 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:45:33 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:45:33 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:45:33 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:45:33 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:45:59 America/Denver] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:45:59 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:45:59 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/checkout.php on line 432
+[11-Dec-2016 20:45:59 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:46:59 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:46:59 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:47:15 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:47:15 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:47:15 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:47:15 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:47:15 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:47:29 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:47:29 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:47:29 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:47:29 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:47:29 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:47:41 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:47:41 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:47:41 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:47:41 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:47:41 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:47:44 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:47:44 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:47:44 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:47:44 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:47:44 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:47:53 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:47:53 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:47:53 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:47:53 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:47:53 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:49:22 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:49:22 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:49:22 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:49:22 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:49:22 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:49:26 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:49:26 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:49:26 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:49:26 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:49:26 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:56:02 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/arunproducts.php on line 436
+[11-Dec-2016 20:56:02 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/arunproducts.php on line 436
+[11-Dec-2016 20:56:26 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:56:26 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:56:26 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:56:26 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:56:26 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:56:53 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:56:53 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:56:53 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:56:53 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:56:53 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:57:11 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:57:11 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/sidharthproducts.php on line 437
+[11-Dec-2016 20:57:17 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:17 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:17 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:17 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:17 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:17 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:20 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:20 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:20 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:20 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:21 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 600
+[11-Dec-2016 20:57:21 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 639
+[11-Dec-2016 20:57:21 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 643
+[11-Dec-2016 20:57:21 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 654
+[11-Dec-2016 20:57:21 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 678
+[11-Dec-2016 20:57:23 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:23 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:23 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:23 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:23 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:23 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:24 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 600
+[11-Dec-2016 20:57:24 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 639
+[11-Dec-2016 20:57:24 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 643
+[11-Dec-2016 20:57:24 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 654
+[11-Dec-2016 20:57:24 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 678
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:39 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 144
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:39 America/Denver] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 147
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: ch in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:39 America/Denver] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home1/myhelpi3/public_html/272/single.php on line 150
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 600
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: Name in /home1/myhelpi3/public_html/272/single.php on line 639
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: Price in /home1/myhelpi3/public_html/272/single.php on line 643
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: Description in /home1/myhelpi3/public_html/272/single.php on line 654
+[11-Dec-2016 20:57:39 America/Denver] PHP Notice:  Undefined variable: Image in /home1/myhelpi3/public_html/272/single.php on line 678
+[11-Dec-2016 20:59:10 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:59:10 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:59:10 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:59:10 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:59:10 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 20:59:29 America/Denver] PHP Notice:  Undefined variable: conn in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:59:29 America/Denver] PHP Fatal error:  Call to a member function close() on null in /home1/myhelpi3/public_html/272/labheshproducts.php on line 437
+[11-Dec-2016 20:59:41 America/Denver] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:59:41 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:59:41 America/Denver] PHP Notice:  Undefined index: Username in /home1/myhelpi3/public_html/272/checkout.php on line 432
+[11-Dec-2016 20:59:41 America/Denver] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 438
+[11-Dec-2016 20:59:44 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 20:59:44 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 20:59:44 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 20:59:44 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 20:59:44 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 21:00:09 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 21:00:09 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 21:00:09 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 21:00:09 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 21:00:09 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 21:00:34 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 21:00:34 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 21:00:34 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 21:00:34 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 21:00:34 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 21:01:20 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 21:01:20 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 21:01:20 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 21:01:20 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 21:01:20 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453
+[11-Dec-2016 21:01:38 America/Denver] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/myhelpi3/public_html/272/checkout.php:133) in /home1/myhelpi3/public_html/272/checkout.php on line 429
+[11-Dec-2016 21:01:38 America/Denver] PHP Notice:  Undefined index: Name in /home1/myhelpi3/public_html/272/checkout.php on line 450
+[11-Dec-2016 21:01:38 America/Denver] PHP Notice:  Undefined index: Description in /home1/myhelpi3/public_html/272/checkout.php on line 451
+[11-Dec-2016 21:01:38 America/Denver] PHP Notice:  Undefined index: Price in /home1/myhelpi3/public_html/272/checkout.php on line 452
+[11-Dec-2016 21:01:38 America/Denver] PHP Notice:  Undefined index: Image in /home1/myhelpi3/public_html/272/checkout.php on line 453

@@ -105,7 +105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="wrap">
       <!-- start header menu -->
     <ul class="megamenu skyblue">
-        <li><a class="color1" href="index.php">Home</a></li>
+        <li><a class="color1" href="index.html">Home</a></li>
       <li class="grid"><a class="color2" href="#">Labhesh's</a>
         <div class="megapanel">
         <p><b>Want to buy Guitars ?</b></p>
@@ -137,20 +137,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col1">
               <div class="h_nav">
                 <h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
+                <?php 
+
+                
+
+                curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+                $contents = curl_exec ($ch);
+                print("$contents");
+      
+              ?>  
               </div>              
             </div>
             <div class="col1"></div>
@@ -192,20 +192,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col1">
               <div class="h_nav">
                 <h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
+                <?php 
+                 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://robotsstrore.co/getList.php");
+                curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+                $contents = curl_exec ($ch);
+                print("$contents");
+      
+              ?>  
               </div>              
             </div>
             <div class="col1"></div>
@@ -247,22 +247,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col1">
               <div class="h_nav">
                 <h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
+                <?php 
+                 $ch = curl_init();
 
 
+                curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getList.php");
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+                $contents = curl_exec ($ch);
+                print("$contents");
+      
+              ?>  
               </div>              
             </div>
             <div class="col1"></div>
@@ -304,20 +302,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col1">
               <div class="h_nav">
                 <h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
+                <?php 
+                 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+                curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+                $contents = curl_exec ($ch);
+                print("$contents");
+      
+              ?>  
               </div>              
             </div>
             <div class="col1"></div>
@@ -359,20 +357,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col1">
               <div class="h_nav">
                 <h4>All Products</h4>
-								<?php 
-								 $ch = curl_init();
+                <?php 
+                 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
+                curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>	
+                $contents = curl_exec ($ch);
+                print("$contents");
+      
+              ?>  
               </div>              
             </div>
             <div class="col1"></div>
@@ -536,7 +534,68 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </section>
     </div><?php 
     extract($_POST);
-    $ch = curl_init();
+
+                /*
+                if(!isset($View_submit)){
+                  // rating submitted
+
+                  //make curl call to submit_rating.php in individual website
+                  // send product name
+                  //dont return anything, just udate DB
+                  
+                  //check rating value
+                  $rating = "4";
+                  if(isset($rating_input_1)){
+                    $rating = "1";
+                  }elseif(isset($rating_input_2)){
+                    $rating = "2";
+                  }elseif(isset($rating_input_3)){
+                    $rating = "3";
+                  }elseif(isset($rating_input_4)){
+                    $rating="4";
+                  }elseif(isset($rating_input_5)){
+                    $rating="5";
+                  }
+                  print("rating= "/$rating);
+
+                  
+                  $ch = curl_init();
+                  $some=$Image;
+                  $pattern="/.+(com)/";
+                  if (preg_match_all($pattern, $some, $matches_out)) {
+                        
+                    $post='name='.$Name;
+                    $prating='rating='.$rating;
+                    curl_setopt($ch, CURLOPT_URL, implode(' ',$matches_out[0]).'/submit_rating.php');
+                    curl_setopt($ch, CURLOPT_POST, true);
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                    curl_exec($ch);
+
+                    //redirect the page: see  $some, accordinly reload gurnoorproducts.php, labhesh.., etc
+                    //print('Website ='.$some);
+                    $newURL = "http://www.myhelpinghandonline.com/272";
+                    if($some == "http://gurnoors.com"){
+                      $newURL = $newURL."/gurnoorproducts.php";
+                    }elseif($some == "http://www.myhelpinghandonline.com"){
+                      $newURL = $newURL."/virajproducts.php";
+                    }elseif($some == "http://labheshdeshpande.com"){
+                      $newURL = $newURL."/labheshproducts.php";
+                    }elseif($some == "http://robotsstore.co"){
+                      $newURL = $newURL."sidharthproducts.php";
+                    }elseif($some == "http://arunkumarweb.com/"){
+                      $newURL = $newURL."/arunproducts.php";
+                    }
+                    header('Location: '.$newURL);
+                    
+                
+                }
+
+
+                }
+                */
+
+                 $ch = curl_init();
 
                  $some=$Image;
                   $pattern="/.+(com)/";
@@ -553,7 +612,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 $contents = curl_exec ($ch);
                 print("$contents");
-              }
+                
+
+                 $ch = curl_init();
+
+                
+      }
+            
     echo '<div class="cont span_2_of_3">
         <div class="labout span_1_of_a1">
         <!-- start product_slider -->
@@ -594,7 +659,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </li>
             <li class="tw"><a class="twitter-share-button"
               href="https://twitter.com/intent/tweet"
-              data-size="small">
+              data-size="large">
             Tweet</a></li>
             <li class="g_plus"><div class="g-plusone" data-annotation="none"></div></li>
             <li class="rss"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
@@ -606,6 +671,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     
      
      ?>
+     
          <?php 
                  $ch = curl_init();
 
@@ -625,6 +691,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 print("$contents");
       }
               ?> 
+              
       <script type="text/javascript">
      $(window).load(function() {
       $("#flexiselDemo1").flexisel();
@@ -707,38 +774,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <div class="cont span_2_of_c1">
             <div class="social">  
                <ul> 
-              <li class="facebook"><div class="fb-follow" data-href="https://www.facebook.com/CMPE272CommonPlace/?skip_nax_wizard=true" data-layout="button" data-size="small" data-show-faces="true"></div>
-             </li>
+              <li class="facebook"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"><a href="#"> </a></div><div class="border hide"><p class="num">1.51K</p></div></li>
              </ul>
                </div>
              <div class="social"> 
                <ul> 
-                <li class="twitter"><div><a class="twitter-follow-button" href="https://twitter.com/marketplace2721" data-size="small" data-show-count="false" data-show-screen-name="false">Follow us</a></div></li>
+                <li class="twitter"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
               </ul>
               </div>
              <div class="social"> 
                <ul> 
-                <li class="google"><div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/100326371872033153064" data-rel="author"></li>
+                <li class="google"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
                </ul>
                </div>
              <div class="social"> 
                <ul> 
-                <li class="dot"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-<script type="IN/FollowCompany" data-id="1337"></script></li>
+                <li class="dot"><a href="#"><span> </span></a><div class="radius"> <img src="images/radius.png"></div><div class="border hide"><p class="num">1.51K</p></div></li>
               </ul>
               </div>
             <div class="clear"> </div>
             </div>
-            <div class="clear"></div>       
+            <div class="clear"></div>     
            
          </div>
          
-         <style>
-       #hide{
-        color: black;
-       }
-       </style>
-         <div class="copy" id="hide" style="#hide{color: black;}">
+        
+         <div class="copy" id="hide">
            <div class="wrap">
               <p>© All rights reserved <a href="http://w3layouts.com/">W3Layouts</a></p>
            </div>
@@ -761,18 +822,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       });
     </script>
         <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<script>window.twttr = (function(d, s, id) {
+        <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
   if (d.getElementById(id)) return t;
@@ -788,7 +838,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
-
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -796,7 +846,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=578122012396261";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
 <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
 </body>
 </html>

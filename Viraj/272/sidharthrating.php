@@ -415,7 +415,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                	<div class="sort-by">
 		            <label>Sort By : </label>
 		             <inline> &nbsp;&nbsp;&nbsp;<a href="sidharthviews.php">MostVisited</a>
-		             &nbsp;&nbsp;&nbsp;<a href="sidharthratings.php">Ratings </a>
+		             &nbsp;&nbsp;&nbsp;<a href="sidharthrating.php">Ratings </a>
 		              &nbsp;&nbsp;&nbsp;<a href="sidharthproducts.php">Popularity</a>&nbsp;&nbsp;&nbsp;<a href="cookies.php">Recently Visited</a></inline>	        
                </div>
     		  </div>	         

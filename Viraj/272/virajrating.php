@@ -119,7 +119,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://labheshdeshpande.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -128,18 +128,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								$contents = curl_exec ($ch);
 								print("$contents");
 			
-							?>		
+							?>
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-  			   <li class="grid"><a class="color2" href="#">Sidharth's</a>
+  			   <li class="grid"><a class="color2" href="sidharthproducts.php">Robot's</a>
 				<div class="megapanel">
 				<p><b>Want to buy Robots ?</b></p>
 					<div class="row">
@@ -169,32 +169,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col1">
 							<div class="h_nav">
-								<h4>All Products</h4>
-								<?php 
+								<h4>All Products</h4><?php
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+			curl_setopt($ch, CURLOPT_URL, "http://robotsstore.co/getList.php");
 
 
-								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 
-								$contents = curl_exec ($ch);
-								print("$contents");
-			
-							?>		
+			$contents = curl_exec ($ch);
+			print("$contents"); ?>
 							</div>							
 						</div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img1.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Gurnoor's</a>
+				<li class="grid"><a class="color2" href="gurnoorproducts.php">Mystical</a>
 				<div class="megapanel">
 				<p><b>Want to buy Magic stuff ?</b></p>
 					<div class="row">
@@ -229,7 +226,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://gurnoors.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -245,11 +242,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img2.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Viraj's</a>
+				<li class="grid"><a class="color2" href="virajproducts.php">Second hand goods</a>
 				<div class="megapanel">
 				<p><b>Want to buy something ?</b></p>
 					<div class="row">
@@ -300,11 +297,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="col1"></div>
 						<div class="col1"></div>
 						<div class="col1"></div>
-						<img src="images/nav_img.jpg" alt=""/>
+						
 					</div>
 				</div>
 				</li>
-				<li class="grid"><a class="color2" href="#">Arun's</a>
+				<li class="grid"><a class="color2" href="arunproducts.php">Car's</a>
 				<div class="megapanel">
 				<p><b>Want to buy cars ?</b></p>
 					<div class="row">
@@ -339,7 +336,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								 $ch = curl_init();
 
 
-								curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/getList.php");
+								curl_setopt($ch, CURLOPT_URL, "http://arunkumarweb.com/getList.php");
 
 
 								curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

@@ -615,9 +615,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 print("$contents");
                 
 
-                 $ch = curl_init();
+                // $ch = curl_init();
 
                 
+      }else{
+        if($h1!=null){
+                        $post='name='.$Name.'&log='.$h1;
+                      }else{
+                        $post='name='.$Name.'&log='.'Someone';
+                      }
+        curl_setopt($ch, CURLOPT_URL, 'http://robotsstore.co/viewincr.php');
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+               // $ch = curl_init();
+      
       }
             
     echo '<div class="cont span_2_of_3">
@@ -690,6 +707,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
                 $contents = curl_exec ($ch);
                 print("$contents");
+      }else{
+        
+        curl_setopt($ch, CURLOPT_URL, 'http://robotsstore.co/getSlider.php');
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+                
+
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+                $contents = curl_exec ($ch);
+                print("$contents");
+                
       }
               ?> 
               

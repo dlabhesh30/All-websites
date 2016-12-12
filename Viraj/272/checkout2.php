@@ -1,37 +1,36 @@
 <html>
-<script>
-function cart() {
-  alert ("Your Order has been Placed :)");
-}
-</script>
+
 <body>
 <?php 
-  $username = "arun";
-  $server = "localhost";
-  $user = "arunkuma_user";
-  $pass = "arunkuma_user";
-  $db = "arunkuma_user";
-  $conn = new mysqli($server, $user, $pass, $db);
-  $i = 0
-  
-  $Name = $_POST["Name"];
-  $Description = $_POST["Description"];
-  $Price = intval($_POST["Price"]);
-  $Image = $_POST["Image"];
-  $sql = "Delete from cart where username = '$username'";
+    
+if (session_status() == PHP_SESSION_NONE){
+                    session_start();
+                  }
+                  $username = null;
+                  if($_SESSION !== NULL && $_SESSION['Username'] != null ){
+                    $username = $_SESSION['Username'];
+                  }else{
+                    $current_url_parent = "http://$_SERVER[HTTP_HOST]".dirname($_SERVER['PHP_SELF']);
+                    //TODO: check for root dir
+                    $login_page = $current_url_parent."/login.html";
+                    header("Location: ".$login_page);
+                    die();
+                  }
+                  $server = "localhost";
+                  $user = "myhelpi3_root";
+                  $pass = "chachi420";
+                  $db = "myhelpi3_Users";
 
-$result = $conn->query($sql);
 
-$conn->commit();
-
-
-
-$conn->commit();
-$conn->close();
-
+                  $conn = new mysqli($server, $user, $pass, $db);
+                  $sql = "Delete from cart where Username = '$username'";
+                  $result = $conn->query($sql);
+                  $conn->commit();
+                  $conn->close();
                #$ch = curl_init();
+                  echo "<script>alert('Your Order has been received.');document.location='http://www.myhelpinghandonline.com/272/index.php'</script>";
 
-
+                  #header("Location: http://www.myhelpinghandonline.com/272/index.php");
                 #curl_setopt($ch, CURLOPT_URL, "http://myhelpinghandonline.com/buyproduct.php");
                 #curl_setopt($ch, CURLOPT_POST, true);
                 #curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
@@ -51,9 +50,7 @@ $conn->close();
 
 
 ?>
-<script>
-        cart();
-</script>
+
 
 </body>
 </html>

@@ -414,9 +414,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="sort">
                	<div class="sort-by">
 		            <label>Sort By : </label>
-		             <inline> &nbsp;&nbsp;&nbsp;<a href="virajviews.php">MostVisited</a>
-		             &nbsp;&nbsp;&nbsp;<a href="virajrating.php">Ratings </a>
-		              &nbsp;&nbsp;&nbsp;<a href="virajproducts.php">Popularity</a>&nbsp;&nbsp;&nbsp;<a href="cookies.php">Recently Visited</a></inline>		        
+		             <inline> &nbsp;&nbsp;&nbsp;<a href="gurnoorviews.php">MostVisited</a>
+		             &nbsp;&nbsp;&nbsp;<a href="gurnoorrating.php">Ratings </a>
+		              &nbsp;&nbsp;&nbsp;<a href="gurnoorproducts.php">Popularity</a>&nbsp;&nbsp;&nbsp;<a href="cookies.php">Recently Visited</a></inline>		        
                </div>
     		  </div>	         
      	    <div class="clear"></div>

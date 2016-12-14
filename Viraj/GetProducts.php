@@ -1,8 +1,8 @@
 <?php 
   $server = "localhost";
-  $user = "myhelpi3_root";
-  $pass = "chachi420";
-  $db = "myhelpi3_Users";
+  $user = "arunkuma_user";
+  $pass = "arunkuma_user";
+  $db = "arunkuma_user";
 
 
 $conn = new mysqli($server, $user, $pass, $db);
@@ -36,9 +36,9 @@ if ($result->num_rows > 0) {
               <h3 class="m_1">'.$row['Name'].'</h3>
               <p class="m_2">'.$row['Description'].'</p>
                  <div class="grid_img">
-               <div class="css3"><img src="'.$row['Image'].'" alt="" height="300"/></div>
+               <div class="css3"><img src="'.$row['Image'].'" alt="" height="250"/></div>
                     <div class="mask">
-                            <div class="info"><input type="submit" value="View"></div>
+                            <div class="info"><input type="submit" value="View" class="astext"></div>
                         </div>
                       </div>
                        <div class="price">$'.$row['Price'].'</div>
@@ -68,10 +68,7 @@ if ($result->num_rows > 0) {
   <input type="hidden" name="Image" value="'.$row["Image"].'" />
   <input type="submit" value="Add to Bag" />
   </form>
-                <ul class="sub-icon1 list">
-                  <li><h3>sed diam nonummy</h3><a href=""></a></li>
-                  <li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="">adipiscing elit, sed diam</a></p></li>
-                </ul>
+                
                 </li>
                </ul>
                </li>

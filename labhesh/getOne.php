@@ -1,8 +1,8 @@
 <?php 
- $server = "localhost";
-  $user = "dlabhesh30";
-  $pass = "nyc1788";
-  $db = "labhesh_db";
+  $server = "localhost";
+  $user = "arunkuma_user";
+  $pass = "arunkuma_user";
+  $db = "arunkuma_user";
 
 
 $conn = new mysqli($server, $user, $pass, $db);
@@ -60,11 +60,14 @@ if ($result->num_rows > 0) {
               <li>
                 <img src="images/plus.png" alt=""/>
                 <ul class="icon1 sub-icon1 profile_img">
-                <li><a class="active-icon c1" href="#">Add To Bag </a>
-                <ul class="sub-icon1 list">
-                  <li><h3>sed diam nonummy</h3><a href=""></a></li>
-                  <li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="">adipiscing elit, sed diam</a></p></li>
-                </ul>
+                <li><li><form action="addtocart.php" method="post">
+  <input type="hidden" name="Name" value="'.$row["Name"].'" />
+  <input type="hidden" name="Description" value="'.$row["Description"].'" />
+  <input type="hidden" name="Price" value="'.$row["Price"].'" />
+  <input type="hidden" name="Image" value="'.$row["Image"].'" />
+  <input type="submit" value="Add to Bag" />
+  </form>
+                
                 </li>
                </ul>
                </li>

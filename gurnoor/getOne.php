@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
   <input type="hidden" name="Description" value="'.$row["Description"].'" />
   <input type="hidden" name="Price" value="'.$row["Price"].'" />
   <input type="hidden" name="Image" value="'.$row["Image"].'" />
-  <input type="submit" value="Add to Bag" />
+  <input type="submit" class="astext" style="style.css" value="Add to Bag" />
   </form>
                 
                 </li>

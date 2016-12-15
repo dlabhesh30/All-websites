@@ -1,9 +1,8 @@
 <?php 
-  $server = "localhost";
-  $user = "arunkuma_user";
-  $pass = "arunkuma_user";
-  $db = "arunkuma_user";
-
+   $server = "localhost";
+  $user = "myhelpi3_root";
+  $pass = "chachi420";
+  $db = "myhelpi3_Users";
 
 $conn = new mysqli($server, $user, $pass, $db);
 
@@ -66,7 +65,7 @@ if ($result->num_rows > 0) {
   <input type="hidden" name="Description" value="'.$row["Description"].'" />
   <input type="hidden" name="Price" value="'.$row["Price"].'" />
   <input type="hidden" name="Image" value="'.$row["Image"].'" />
-  <input type="submit" value="Add to Bag" />
+  <input type="submit" value="Add to Bag" class="astext"/>
   </form>
                 
                 </li>
